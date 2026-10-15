@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="36_3" id="36_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>36_3</name>
+  <Placemark id="36_3.1">
+	<name>36-3</name>
+	<description>行田郵便局</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#36_3">
+		<SimpleData name="fid">622</SimpleData>
+		<SimpleData name="no">36</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="angle">4.5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.139855841069476,139.45959100253472</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.459197,36.140525 139.460653,36.141051 139.460726,36.141076 139.461057,36.13988 139.461116497394,36.1396437177537 139.460496882206,36.139529636498 139.460319651691,36.139954833245 139.460302103138,36.1400209684681 139.460075921791,36.1399831769188 139.459582612473,36.139824137283 139.459521,36.139918 139.459389,36.140155 139.459197,36.140525</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="76_1" id="76_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>76_1</name>
+  <Placemark id="76_1.1">
+	<name>76-1</name>
+	<description>佐間三丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#76_1">
+		<SimpleData name="fid">709</SimpleData>
+		<SimpleData name="no">76</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.126002788481209,139.46798346727019</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.469152179394,36.1271735024689 139.469142861748,36.1259881549961 139.467984415605,36.1259933391333 139.467980841728,36.1254243150718 139.467238,36.125974 139.469152179394,36.1271735024689</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

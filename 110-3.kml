@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="110_3" id="110_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>110_3</name>
+  <Placemark id="110_3.1">
+	<name>110-3</name>
+	<description>石田堤／堤根</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#110_3">
+		<SimpleData name="fid">786</SimpleData>
+		<SimpleData name="no">110</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.10733685771703,139.47758854999884</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.475906,36.109534 139.476601,36.109543 139.476645,36.109458 139.476756,36.109134 139.478054,36.109487 139.479135,36.105762 139.478001,36.10545 139.477739,36.105361 139.47761621516,36.1053280752145 139.475975496839,36.1088837130412 139.475897108243,36.1090679029232 139.47586679982,36.1092980716642 139.475906,36.109534</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

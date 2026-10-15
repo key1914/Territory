@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="10_4" id="10_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>10_4</name>
+  <Placemark id="10_4.1">
+	<name>10-4</name>
+	<description>武州荒木駅 B</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#10_4">
+		<SimpleData name="fid">572</SimpleData>
+		<SimpleData name="no">10</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.158091003755537,139.48737735158886</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.486288532607,36.160051022807 139.486875136364,36.1601272399385 139.489451970377,36.1598344526132 139.489345,36.159245 139.489136,36.1579 139.488969,36.157918 139.489026,36.15784 139.489734,36.157318 139.489802,36.157216 139.4854101,36.1571249 139.484908,36.157918 139.4848464,36.1587612 139.484833304051,36.1590186338878 139.486449092241,36.1592183499018 139.486406511185,36.1593801831232 139.48635977588,36.1595998732829 139.486288532607,36.160051022807</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="111_1" id="111_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>111_1</name>
+  <Placemark id="111_1.1">
+	<name>111-1</name>
+	<description>鴻巣市立下忍小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#111_1">
+		<SimpleData name="fid">293</SimpleData>
+		<SimpleData name="no">111</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.108399130108509,139.45971614957273</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4586521387,36.1080291964518 139.458344550767,36.1080892738701 139.457941297965,36.108158239664 139.4577495,36.1081491 139.459213,36.1072818 139.460296,36.106615 139.460406,36.106736 139.4605501,36.1068942 139.461098,36.107493 139.46102516911,36.1075400406186 139.460885873294,36.1078678703778 139.460865761707,36.1081795958756 139.460686795305,36.108188910361 139.460718528903,36.1083859494576 139.460775589354,36.1085434253825 139.460926586205,36.108533752213 139.460962651412,36.1088663154012 139.460742716487,36.1088754003775 139.460757098366,36.1090297682723 139.460299751021,36.1090691305118 139.460300796136,36.1092278671161 139.460113737305,36.1092273712854 139.460097580363,36.1090811439775 139.459518222071,36.1092124974876 139.459498239154,36.1092286008598 139.459165530288,36.1093166383483 139.4586521387,36.1080291964518</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

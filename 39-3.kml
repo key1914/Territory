@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="39_3" id="39_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>39_3</name>
+  <Placemark id="39_3.1">
+	<name>39-3</name>
+	<description>行田八幡神社</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#39_3">
+		<SimpleData name="fid">128</SimpleData>
+		<SimpleData name="no">39</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="angle">4.5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.137940701690397,139.46169260522427</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.460607,36.138323 139.460938,36.137926 139.4610706,36.1377419 139.461201,36.137479 139.461855,36.137679 139.4627443,36.1376943 139.4626531,36.1387384 139.4619343,36.1385477 139.4615427,36.1382878 139.461395,36.138598 139.460607,36.138323</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="91_2" id="91_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>91_2</name>
+  <Placemark id="91_2.1">
+	<name>91-2</name>
+	<description>行田市立埼玉中学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#91_2">
+		<SimpleData name="fid">438</SimpleData>
+		<SimpleData name="no">91</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.116905424123495,139.48961163245338</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.487231,36.116796 139.488782,36.116164 139.4895677,36.1156503 139.4908444,36.116725 139.490378,36.1172497 139.4896378,36.1180903 139.487231,36.116796</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

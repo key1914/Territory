@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="116_3" id="116_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>116_3</name>
+  <Placemark id="116_3.1">
+	<name>116-3</name>
+	<description>袋ふれあい公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#116_3">
+		<SimpleData name="fid">801</SimpleData>
+		<SimpleData name="no">116</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.100767485343063,139.46805718292509</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.47090820401,36.1011737601215 139.471218156577,36.1008278633953 139.471324865245,36.1007707957641 139.47102737366,36.1005924008876 139.470823011114,36.1004893289239 139.47050104318,36.1003417784111 139.470370383608,36.1003002736582 139.470239196508,36.1002573490611 139.470119597028,36.1002281711933 139.469859117195,36.1001613448586 139.469649958341,36.1000853778424 139.469014501347,36.0997953200432 139.468638,36.099619 139.468509,36.099827 139.4681685,36.1003811 139.467873,36.100863 139.46787,36.100929 139.468723548822,36.1008278776635 139.4691744054,36.1007741921625 139.469804712689,36.1007087136773 139.469934304745,36.1007215401752 139.470111590629,36.1007450578246 139.470284417202,36.1008080193879 139.47090820401,36.1011737601215</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

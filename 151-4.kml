@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="151_4" id="151_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>151_4</name>
+  <Placemark id="151_4.1">
+	<name>151-4</name>
+	<description>富士見第1児童公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#151_4">
+		<SimpleData name="fid">385</SimpleData>
+		<SimpleData name="no">151</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="angle">-27.6</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.096849341836084,139.45816234102927</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4578078,36.0976698 139.4574376,36.097076 139.458827,36.0965103 139.4591274,36.0969655 139.4584408,36.0972841 139.4584998,36.0973773 139.4578078,36.0976698</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="20_4" id="20_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>20_4</name>
+  <Placemark id="20_4.1">
+	<name>20-4</name>
+	<description>遍性寺</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#20_4">
+		<SimpleData name="fid">592</SimpleData>
+		<SimpleData name="no">20</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.155284277697767,139.48117066210969</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.479274,36.157016 139.480398,36.15705 139.480626,36.156933 139.4809081,36.1568469 139.4811841,36.1568249 139.4813852,36.1568439 139.4815652,36.1567899 139.4825222,36.1568619 139.482808876823,36.1567391474129 139.482307035058,36.1559849401276 139.481777790671,36.155453416302 139.482334292555,36.1550126230379 139.48175275637,36.1543834006265 139.481088922989,36.1549409163414 139.48102262688,36.1550422562197 139.480662908219,36.155243498157 139.480513636765,36.1553633266125 139.480395149451,36.1554603906225 139.480084254564,36.1556707499061 139.478718,36.156539 139.479274,36.157016</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

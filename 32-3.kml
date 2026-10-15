@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="32_3" id="32_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>32_3</name>
+  <Placemark id="32_3.1">
+	<name>32-3</name>
+	<description>城西二丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#32_3">
+		<SimpleData name="fid">614</SimpleData>
+		<SimpleData name="no">32</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.133758547412114,139.45212664600496</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.451221341826,36.1340581149111 139.451834991434,36.1341276394243 139.451780540953,36.1343229888197 139.45272,36.134474 139.452946,36.133727 139.453021739536,36.1333133575394 139.45284048796,36.1333588418172 139.452631,36.132885 139.4520897542,36.1330725732748 139.451891895854,36.1331632449681 139.451697504299,36.1333720883457 139.451357388247,36.1335002785702 139.451353899877,36.1336481901075 139.451338202213,36.1337045372865 139.451221341826,36.1340581149111</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

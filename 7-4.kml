@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="7_4" id="7_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>7_4</name>
+  <Placemark id="7_4.1">
+	<name>7-4</name>
+	<description>東照寺</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#7_4">
+		<SimpleData name="fid">134</SimpleData>
+		<SimpleData name="no">7</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.166095048283687,139.48725623663552</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.487773351824,36.167341274266 139.487682675245,36.1673256084749 139.487396008494,36.1670721837303 139.487255485002,36.1670637561564 139.48709923935,36.1670444489243 139.486881003531,36.1670612574056 139.486582075945,36.1671159986096 139.486402274157,36.1671188257401 139.486434478645,36.1670068282956 139.486452948611,36.1668258124401 139.48646461556,36.1666190727725 139.486475122582,36.1661923693356 139.486493576588,36.1660885025227 139.486516241931,36.1658770217186 139.486897986883,36.1658716673251 139.487205574984,36.1658055352294 139.487186844439,36.1656806294643 139.487177098141,36.1654731915964 139.487254807756,36.1651862920915 139.487292831439,36.164887558171 139.488335310284,36.164982979748 139.488570656775,36.1650329926184 139.488936,36.165147 139.488640665803,36.1653486667078 139.488371063714,36.1656527248752 139.487902707675,36.166350802861 139.48783319134,36.1665073194488 139.487960080506,36.1666507870681 139.488255236567,36.1670156427259 139.488427314731,36.1672249382911 139.487773351824,36.167341274266</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

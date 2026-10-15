@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="130_2" id="130_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>130_2</name>
+  <Placemark id="130_2.1">
+	<name>130-2</name>
+	<description>吹上本町三丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#130_2">
+		<SimpleData name="fid">834</SimpleData>
+		<SimpleData name="no">130</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="angle">-36</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.106799363132176,139.4516327997018</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.451274744795,36.1078958559097 139.451708,36.107917 139.452171,36.107831 139.45231077448,36.1077866202095 139.452071277374,36.1072208133476 139.451904590365,36.1068176574719 139.451891616275,36.1067817979064 139.451870110778,36.1067581929664 139.451798233934,36.1065819709523 139.451768887241,36.1065431271555 139.451728131777,36.1065103422617 139.451719179801,36.106461038281 139.451663910278,36.1062991626346 139.451584511762,36.106115544081 139.451348,36.106263 139.451029059085,36.1064591795539 139.451161965953,36.1069043247383 139.451274744795,36.1078958559097</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

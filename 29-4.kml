@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="29_4" id="29_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>29_4</name>
+  <Placemark id="29_4.1">
+	<name>29-4</name>
+	<description>持田 A</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#29_4">
+		<SimpleData name="fid">510</SimpleData>
+		<SimpleData name="no">29</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.134056441812447,139.44981561544401</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4479959,36.1347366 139.447993716735,36.1345386091751 139.448403033664,36.13451355789 139.448481,36.134499 139.4484649,36.134239 139.448490928238,36.1342100400215 139.448708039112,36.1342156438429 139.448835524084,36.1341705980892 139.4488351,36.1337798 139.448876147069,36.1337592427759 139.449375789327,36.1337153902614 139.449469299873,36.1335660200251 139.449607082236,36.1334839017282 139.449617037363,36.1333598784899 139.44960197836,36.1331944738635 139.450389515646,36.1331715123345 139.4504498,36.1332122 139.4504776,36.133349 139.4504106,36.133498 139.4503296,36.133564 139.4502973,36.1336795 139.4500666,36.1337098 139.4499003,36.1338701 139.4498842,36.1341431 139.449557,36.1345243 139.4493746,36.1345893 139.4479959,36.1347366</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

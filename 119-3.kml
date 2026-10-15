@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="119_3" id="119_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>119_3</name>
+  <Placemark id="119_3.1">
+	<name>119-3</name>
+	<description>ウニクス鴻巣</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#119_3">
+		<SimpleData name="fid">349</SimpleData>
+		<SimpleData name="no">119</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="angle">-36</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.111489766023404,139.43726527585653</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.436346,36.111387 139.436368,36.111316 139.436665,36.111131 139.436665,36.111095 139.436384,36.110917 139.436646,36.110607 139.436837,36.110503 139.4375318,36.1112795 139.438158728454,36.1119804378818 139.437315226824,36.1124767653731 139.4367486,36.1118473 139.436346,36.111387</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

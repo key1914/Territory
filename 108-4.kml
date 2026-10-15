@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="108_4" id="108_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>108_4</name>
+  <Placemark id="108_4.1">
+	<name>108-4</name>
+	<description>行田市立下忍小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#108_4">
+		<SimpleData name="fid">783</SimpleData>
+		<SimpleData name="no">108</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.116519656253637,139.46640214306098</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.465869644359,36.1170044555092 139.466415953317,36.1170001613153 139.467673913923,36.1169326773447 139.468222736662,36.1168591464826 139.469044188009,36.1166651372325 139.469013,36.116297 139.469013,36.116185 139.469015,36.115823 139.469081,36.115426 139.46864,36.115268 139.468433,36.115188 139.468377,36.115162 139.468219,36.115058 139.46816,36.114974 139.468034,36.114794 139.467929,36.114688 139.467798,36.114542 139.467688,36.11436 139.46754,36.114155 139.467489,36.113977 139.467427,36.11389 139.467326,36.113791 139.467258,36.113669 139.467212,36.11359 139.467022,36.113351 139.466909,36.113141 139.466772,36.11294 139.466625,36.112671 139.466163,36.112704 139.466156,36.11278 139.46486,36.112773 139.464737,36.116178 139.464493,36.116689 139.465208391059,36.116891834946 139.465669169444,36.1169763113186 139.465869644359,36.1170044555092</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

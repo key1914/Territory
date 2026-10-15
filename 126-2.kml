@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="126_2" id="126_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>126_2</name>
+  <Placemark id="126_2.1">
+	<name>126-2</name>
+	<description>鴻巣消防署吹上分署</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#126_2">
+		<SimpleData name="fid">825</SimpleData>
+		<SimpleData name="no">126</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.107796632993598,139.45630954174325</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.456498165911,36.1088673399149 139.458866679928,36.1074615338506 139.458736395252,36.107232761873 139.458141864176,36.1073501185523 139.457867942419,36.1073886021689 139.457274825486,36.1074320260265 139.456815944631,36.107552387468 139.456691006355,36.1075889263261 139.456301655583,36.1077765850364 139.455816974104,36.1080349777832 139.456498165911,36.1088673399149</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

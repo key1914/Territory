@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="26_1" id="26_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>26_1</name>
+  <Placemark id="26_1.1">
+	<name>26-1</name>
+	<description>下須戸</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#26_1">
+		<SimpleData name="fid">601</SimpleData>
+		<SimpleData name="no">26</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.149450938075191,139.49918846145886</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.49713,36.151427 139.497617043918,36.1517536113395 139.497879622295,36.1516153316872 139.498197363177,36.1513299389593 139.498374840789,36.15109491615 139.498542852928,36.1509592522566 139.498715597803,36.1508350527118 139.499124732982,36.1505919827478 139.500156,36.149922 139.500736,36.149588 139.498701125228,36.1484666266165 139.498025205198,36.1497397800349 139.497736296308,36.1502842992118 139.497614735811,36.1505136544296 139.49749,36.150749 139.49713,36.151427</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

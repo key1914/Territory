@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="27_2" id="27_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>27_2</name>
+  <Placemark id="27_2.1">
+	<name>27-2</name>
+	<description>行田市太田公民館</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#27_2">
+		<SimpleData name="fid">455</SimpleData>
+		<SimpleData name="no">27</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.145066624171768,139.50239219234925</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.5006394,36.1460835 139.501084,36.145145 139.501164,36.144296 139.500885,36.143445 139.500821,36.143118 139.5016586,36.1428345 139.5021844,36.1437443 139.5023024,36.1437963 139.5030212,36.1438049 139.5040512,36.1434843 139.504518,36.144867 139.5034718,36.1458063 139.502903,36.14648 139.502777,36.146706 139.5021307,36.1467333 139.5019161,36.1466986 139.5020342,36.1464994 139.5014548,36.1462481 139.5011651,36.1462048 139.5009184,36.1461441 139.5006394,36.1460835</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

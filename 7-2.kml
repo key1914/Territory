@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="7_2" id="7_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>7_2</name>
+  <Placemark id="7_2.1">
+	<name>7-2</name>
+	<description>東照寺</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#7_2">
+		<SimpleData name="fid">132</SimpleData>
+		<SimpleData name="no">7</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.168397073156584,139.48933251192617</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4880178,36.1691358 139.4883128,36.1689756 139.487773351824,36.167341274266 139.488427314731,36.1672249382911 139.488946,36.167062 139.489032,36.167068 139.489539,36.167993 139.489894,36.167829 139.490088,36.168064 139.489947,36.168135 139.491585,36.170185 139.491284,36.170341 139.490932,36.1704 139.4893619,36.1696752 139.4880178,36.1691358</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

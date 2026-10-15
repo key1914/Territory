@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="86_2" id="86_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>86_2</name>
+  <Placemark id="86_2.1">
+	<name>86-2</name>
+	<description>行田埼玉郵便局</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#86_2">
+		<SimpleData name="fid">732</SimpleData>
+		<SimpleData name="no">86</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.120241316288926,139.48985690436436</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.489262154812,36.1223491790104 139.489504,36.122116 139.490702,36.121122 139.490986,36.120882 139.490892626736,36.120794192245 139.49041321913,36.1202843366573 139.49034761733,36.1201863818659 139.49012695673,36.1196644895237 139.489959171218,36.1193801509866 139.489723185421,36.1187997995639 139.489661426113,36.1187062577197 139.489289571208,36.1184215614065 139.488481330059,36.1192674470092 139.48763807786,36.1200833619903 139.488159974813,36.1205218265518 139.488234244497,36.1205615212695 139.488574466408,36.1208686747847 139.489130119188,36.1215902082581 139.489262154812,36.1223491790104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="128_3" id="128_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>128_3</name>
+  <Placemark id="128_3.1">
+	<name>128-3</name>
+	<description>鴻巣市高齢者福祉センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#128_3">
+		<SimpleData name="fid">831</SimpleData>
+		<SimpleData name="no">128</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.105367831360425,139.44999444743706</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.447974582061,36.1060342493329 139.449243084509,36.1061002966006 139.449527277776,36.1060972375288 139.451093196166,36.106044954749 139.451151905026,36.1060352250018 139.451107,36.105944 139.451003,36.105642 139.450292,36.1054 139.449637,36.105276 139.449550877198,36.105666214727 139.449155720339,36.1056494069521 139.44852734819,36.1056054686565 139.448463151778,36.1055690462168 139.448165991627,36.1056606100423 139.447909819766,36.1056412997006 139.447974582061,36.1060342493329</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

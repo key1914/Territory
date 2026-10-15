@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="93_6" id="93_6">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>93_6</name>
+  <Placemark id="93_6.1">
+	<name>93-6</name>
+	<description>やなぎ幼稚園／渡柳</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#93_6">
+		<SimpleData name="fid">317</SimpleData>
+		<SimpleData name="no">93</SimpleData>
+		<SimpleData name="block_no">6</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.115841784996462,139.47874059237037</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4763254,36.1162647 139.476596,36.114968 139.4771932,36.1143574 139.4778959,36.1147214 139.4792209,36.1152501 139.4803743,36.1154148 139.4802688,36.1156584 139.4797914,36.116343 139.4796728,36.1165854 139.4792436,36.1164727 139.4786536,36.116217 139.4776611,36.116009 139.4775485,36.1164554 139.4763254,36.1162647</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

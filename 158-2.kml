@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="158_2" id="158_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>158_2</name>
+  <Placemark id="158_2.1">
+	<name>158-2</name>
+	<description>大芦農村センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#158_2">
+		<SimpleData name="fid">896</SimpleData>
+		<SimpleData name="no">158</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.092202152804333,139.44523573116592</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.445908664274,36.0931669255838 139.446753,36.09285 139.446307563187,36.0920110537921 139.445486027173,36.0904870329117 139.445204956105,36.0910733139655 139.445009140252,36.0911803721707 139.444903504563,36.0912291536549 139.444783929444,36.0912680328547 139.443093908471,36.091718459732 139.442885247758,36.0917828892597 139.442761256987,36.091850022139 139.442594952241,36.0919919216215 139.442516406407,36.0920775137882 139.442789878058,36.0931405744614 139.443994009486,36.0930771633552 139.444244596517,36.093054254018 139.444344117958,36.0930295095756 139.444637819158,36.0929260442561 139.444725416242,36.0929086614115 139.445181634176,36.0928664213436 139.445290534248,36.0928434355748 139.445381862637,36.0928137115227 139.44577097849,36.0926873850822 139.445822096816,36.0927054534392 139.445908664274,36.0931669255838</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

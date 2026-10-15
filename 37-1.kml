@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="37_1" id="37_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>37_1</name>
+  <Placemark id="37_1.1">
+	<name>37-1</name>
+	<description>大長寺</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#37_1">
+		<SimpleData name="fid">136</SimpleData>
+		<SimpleData name="no">37</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="angle">4.5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.141864785531432,139.46410244648826</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.462472,36.141639 139.462674,36.141088 139.4626803,36.1410434 139.4631148,36.141208 139.4635493,36.1413293 139.4637854,36.1413293 139.464295,36.1413163 139.4646222,36.1414073 139.4649065,36.1413726 139.4654376,36.1414679 139.4657756,36.1416326 139.4660009,36.1415632 139.4660384,36.1417279 139.465718,36.141989 139.465339,36.142444 139.464696,36.142232 139.464236,36.1421481 139.46366,36.142003 139.462472,36.141639</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

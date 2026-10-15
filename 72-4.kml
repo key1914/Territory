@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="72_4" id="72_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>72_4</name>
+  <Placemark id="72_4.1">
+	<name>72-4</name>
+	<description>行田警察署</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#72_4">
+		<SimpleData name="fid">701</SimpleData>
+		<SimpleData name="no">72</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="angle">4.6</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.134530432957575,139.4660308291372</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.466503184285,36.1357259844739 139.466614937445,36.1345676909228 139.466715383176,36.1335500957609 139.466783403631,36.1326445602727 139.46555,36.133459 139.465943340387,36.1345243917605 139.466308295554,36.1357215753312 139.466503184285,36.1357259844739</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

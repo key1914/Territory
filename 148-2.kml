@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="148_2" id="148_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>148_2</name>
+  <Placemark id="148_2.1">
+	<name>148-2</name>
+	<description>南一丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#148_2">
+		<SimpleData name="fid">875</SimpleData>
+		<SimpleData name="no">148</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="angle">-27.6</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.098849856767629,139.44969737207541</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.44972966213,36.1002967988234 139.451062919316,36.0997400599396 139.450327998604,36.0985603684002 139.448984102997,36.0991267107126 139.44972966213,36.1002967988234</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

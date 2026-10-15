@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="79_2" id="79_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>79_2</name>
+  <Placemark id="79_2.1">
+	<name>79-2</name>
+	<description>天神公園／長野</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#79_2">
+		<SimpleData name="fid">330</SimpleData>
+		<SimpleData name="no">79</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.130911631659402,139.47759028405991</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4761609,36.131584 139.476472,36.1306698 139.476966,36.129464 139.477163,36.129513 139.477916,36.129967 139.4788836,36.130394 139.4787656,36.1306323 139.47861,36.1311306 139.4784974,36.1316288 139.4785671,36.1317718 139.4785188,36.1319321 139.4785242,36.1320404 139.4784491,36.1322181 139.4773977,36.1319841 139.476896,36.131872 139.4761609,36.131584</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

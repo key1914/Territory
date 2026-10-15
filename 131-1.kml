@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="131_1" id="131_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>131_1</name>
+  <Placemark id="131_1.1">
+	<name>131-1</name>
+	<description>JR吹上駅</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#131_1">
+		<SimpleData name="fid">193</SimpleData>
+		<SimpleData name="no">131</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="angle">-36</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.103869553585682,139.45296025384167</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4529573,36.1040354 139.452801,36.103921 139.452512,36.103424 139.4538397,36.1028652 139.456266,36.101836 139.4562778,36.102384 139.4547141,36.103175 139.4534052,36.1038425 139.4529573,36.1040354</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

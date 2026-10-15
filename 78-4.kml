@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="78_4" id="78_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>78_4</name>
+  <Placemark id="78_4.1">
+	<name>78-4</name>
+	<description>長野新大橋</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#78_4">
+		<SimpleData name="fid">718</SimpleData>
+		<SimpleData name="no">78</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.132349619156756,139.47587731268271</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.475984275903,36.1341847349366 139.476436362064,36.1342183888226 139.477052870674,36.1335932836906 139.476949,36.133354 139.476861,36.132452 139.476896,36.131872 139.475704,36.131411 139.474864,36.13119 139.475066,36.131539 139.475348,36.132077 139.475409,36.132309 139.47536,36.132608 139.475214922628,36.1329757581569 139.475984275903,36.1341847349366</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

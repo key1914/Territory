@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="138_3" id="138_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>138_3</name>
+  <Placemark id="138_3.1">
+	<name>138-3</name>
+	<description>埼玉県消防学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#138_3">
+		<SimpleData name="fid">853</SimpleData>
+		<SimpleData name="no">138</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.095510748562617,139.46449020347075</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.464809,36.097067 139.464828434787,36.0965798621095 139.464917237551,36.0961631343338 139.464986442102,36.0959506406779 139.465576747645,36.0949414517651 139.46491576695,36.0947382939243 139.464500253557,36.0954943636345 139.463969247653,36.0953025338591 139.463785980007,36.095664844585 139.464593,36.096077 139.464616,36.096114 139.464642,36.096263 139.464604,36.097038 139.464809,36.097067</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

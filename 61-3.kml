@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="61_3" id="61_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>61_3</name>
+  <Placemark id="61_3.1">
+	<name>61-3</name>
+	<description>関根</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#61_3">
+		<SimpleData name="fid">524</SimpleData>
+		<SimpleData name="no">61</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.126777336156138,139.51697658600673</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.5146942,36.1268923 139.5150375,36.1262857 139.5154667,36.1258654 139.5160818,36.1256158 139.5163768,36.1255725 139.5164734,36.1260101 139.5166719,36.1259278 139.5168006,36.1260275 139.5173478,36.1265734 139.5179915,36.1262528 139.5183777,36.1261141 139.5186674,36.1260621 139.5189195,36.1259625 139.5190483,36.1259755 139.5192843,36.1262051 139.5188391,36.1265604 139.518544,36.1268204 139.5181849,36.1271214 139.517863,36.1274853 139.5176216,36.127715 139.5171495,36.1281526 139.5183083,36.1289282 139.517905,36.129332 139.517463,36.129014 139.5172461,36.1288068 139.515607,36.127376 139.5153578,36.1272427 139.5146942,36.1268923</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

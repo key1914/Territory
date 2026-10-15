@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="88_2" id="88_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>88_2</name>
+  <Placemark id="88_2.1">
+	<name>88-2</name>
+	<description>埼玉</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#88_2">
+		<SimpleData name="fid">737</SimpleData>
+		<SimpleData name="no">88</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="angle">-13</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.118177300679278,139.4966161993141</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.495149180594,36.1206437440298 139.496147,36.120496 139.497419,36.120279 139.496979962889,36.1186626270813 139.496657482108,36.1181534720708 139.496506977274,36.1180107389361 139.496331,36.117287 139.49538,36.117458 139.494516382403,36.1175469635327 139.494738687149,36.1182702795902 139.494626909854,36.1186490037822 139.494723620488,36.1190523131107 139.49489383726,36.1197133809333 139.495149180594,36.1206437440298</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

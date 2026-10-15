@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="6_5" id="6_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>6_5</name>
+  <Placemark id="6_5.1">
+	<name>6-5</name>
+	<description>見沼公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#6_5">
+		<SimpleData name="fid">563</SimpleData>
+		<SimpleData name="no">6</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.16670957448968,139.48500371306042</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.482906450914,36.1670953507189 139.483058285384,36.1670975654329 139.483278410756,36.1671051851681 139.483322793331,36.1671134048774 139.483588047711,36.1671543501845 139.483788834857,36.1672057991686 139.483991599055,36.1672739698906 139.484269525845,36.1672879536285 139.484320216895,36.1672879536285 139.484669105848,36.1672587019584 139.484952438598,36.1672331049186 139.4853731,36.1672087 139.485416,36.166989 139.485453,36.166351 139.485496,36.166025 139.485055,36.166019 139.484568,36.165984 139.484292,36.165932 139.483776,36.165864 139.483288,36.165947 139.483020585588,36.166643038659 139.482941245782,36.1669108392025 139.482906450914,36.1670953507189</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

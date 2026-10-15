@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="160_1" id="160_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>160_1</name>
+  <Placemark id="160_1.1">
+	<name>160-1</name>
+	<description>旧鴻巣市立小谷小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#160_1">
+		<SimpleData name="fid">899</SimpleData>
+		<SimpleData name="no">160</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.084137068924648,139.46491546223524</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.463888924897,36.08584533272 139.464194,36.08575 139.464575,36.085686 139.464849,36.08566 139.465195,36.085666 139.465595,36.085699 139.46557,36.085407 139.465644563609,36.084962600897 139.46547690322,36.08384445005 139.465219188022,36.0821571665778 139.464560373024,36.0820466006175 139.464447362975,36.0820342259731 139.464323373147,36.082040440263 139.464244366732,36.0820590070621 139.464180962282,36.0820957961463 139.463660550523,36.0825613265401 139.46274558503,36.083402105426 139.462452845756,36.0836672951654 139.462886196648,36.0842932253337 139.461354909017,36.0851450385879 139.461394745471,36.085207510462 139.461779867991,36.0856647735168 139.46192527053,36.0856543090228 139.462254428464,36.0856090382226 139.462507268264,36.0855572037236 139.4627602123,36.0854853826317 139.463331510292,36.0852461541618 139.463469017893,36.0851557761663 139.463888924897,36.08584533272</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

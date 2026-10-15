@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="18_3" id="18_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>18_3</name>
+  <Placemark id="18_3.1">
+	<name>18-3</name>
+	<description>富士見町二丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#18_3">
+		<SimpleData name="fid">588</SimpleData>
+		<SimpleData name="no">18</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="angle">16</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.152166684883987,139.47698991565241</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.475962,36.153341 139.478667,36.153385 139.478688,36.152993 139.478502,36.152862 139.4789089,36.1521776 139.479046,36.151952 139.477609031764,36.1517026933755 139.477517407209,36.1516613265437 139.477449427701,36.15171303508 139.476540803621,36.1514959193786 139.475983,36.153049 139.475962,36.153341</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

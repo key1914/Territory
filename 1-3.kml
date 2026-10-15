@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="1_3" id="1_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>1_3</name>
+  <Placemark id="1_3.1">
+	<name>1-3</name>
+	<description>行田須加郵便局</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#1_3">
+		<SimpleData name="fid">401</SimpleData>
+		<SimpleData name="no">1</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.18401505854154,139.4743167921981</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4733839,36.1848983 139.4734214,36.1847267 139.4735635,36.1844128 139.4738478,36.183965 139.4739337,36.1833369 139.4740788,36.18225 139.4740888,36.181523 139.4738768,36.181248 139.4741295,36.1809814 139.4743528,36.180821 139.4746348,36.180693 139.4750219,36.180665 139.4755511,36.1807173 139.4760338,36.180772 139.4756744,36.1827718 139.4754974,36.1837947 139.4754309,36.184151 139.4765046,36.1842678 139.4766668,36.184287 139.4786411,36.1843627 139.4786505,36.1845283 139.4786398,36.1847069 139.478617,36.1849623 139.4782012,36.184958 139.4776915,36.1849503 139.477249,36.1849731 139.4766697,36.1849948 139.4757871,36.1850109 139.4754814,36.1849849 139.4749531,36.1849082 139.4747787,36.184893 139.4744461,36.1848736 139.4740116,36.184893 139.4733839,36.1848983</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

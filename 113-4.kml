@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="113_4" id="113_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>113_4</name>
+  <Placemark id="113_4.1">
+	<name>113-4</name>
+	<description>下忍汚水中継ポンプ場</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#113_4">
+		<SimpleData name="fid">470</SimpleData>
+		<SimpleData name="no">113</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.107101296854971,139.46803558122991</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4665803,36.1078845 139.467224,36.1074945 139.4693317,36.1062973 139.469454,36.1068874 139.470598,36.1066874 139.470747,36.1072484 139.470858,36.1071924 139.471083,36.1074794 139.470981,36.1075364 139.4707776,36.1075871 139.469712,36.1078594 139.469626,36.1078984 139.4692541,36.1081743 139.4682134,36.1089328 139.467127,36.1097374 139.467108,36.1096644 139.467131,36.1096054 139.467499,36.1092744 139.467516,36.1092074 139.467495,36.1091454 139.4670445,36.1085238 139.4667307,36.1080969 139.4665803,36.1078845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

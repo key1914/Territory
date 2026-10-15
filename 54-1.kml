@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="54_1" id="54_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>54_1</name>
+  <Placemark id="54_1.1">
+	<name>54-1</name>
+	<description>地蔵塚古墳</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#54_1">
+		<SimpleData name="fid">656</SimpleData>
+		<SimpleData name="no">54</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.148024741440338,139.48506404669655</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.484308,36.148613 139.4869718,36.1486447 139.487663138753,36.1485520906939 139.487696656584,36.148087791386 139.486670118038,36.1480756189917 139.486148764198,36.1480567283797 139.486093274261,36.1476682096503 139.486015331881,36.1475395317188 139.484330815456,36.1475181199177 139.484308,36.148613</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

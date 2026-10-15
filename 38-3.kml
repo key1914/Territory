@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="38_3" id="38_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>38_3</name>
+  <Placemark id="38_3.1">
+	<name>38-3</name>
+	<description>天満</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#38_3">
+		<SimpleData name="fid">624</SimpleData>
+		<SimpleData name="no">38</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.135743276397342,139.46108241237496</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4603346,36.1369201 139.46133,36.137127 139.461823000552,36.1357280007441 139.461404564978,36.1356527088421 139.461226784061,36.1355931756592 139.461131389422,36.1355266385189 139.460767155347,36.1354671052404 139.4606781845,36.1358190314903 139.459584744711,36.1359489601426 139.459011246916,36.1358964330161 139.458903132159,36.1362344285584 139.459232027156,36.1362852688998 139.459409652394,36.136290581977 139.460365527954,36.1362488929079 139.4603346,36.1369201</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

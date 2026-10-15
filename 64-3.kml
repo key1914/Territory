@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="64_3" id="64_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>64_3</name>
+  <Placemark id="64_3.1">
+	<name>64-3</name>
+	<description>全龍寺／真名板</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#64_3">
+		<SimpleData name="fid">680</SimpleData>
+		<SimpleData name="no">64</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.132515200382869,139.52455141016782</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.524558,36.133945 139.525102,36.133194 139.525488,36.132414 139.52611,36.131946 139.526861,36.131825 139.527741,36.131912 139.528642,36.132276 139.52905,36.132206 139.529077529488,36.1321950351642 139.528504314569,36.1313818808612 139.527597548162,36.1316763660289 139.527540310542,36.1316704010267 139.527438759927,36.131574960929 139.527351980311,36.1314496956247 139.527287357192,36.1313915366654 139.527111951585,36.1314690819349 139.527025171968,36.1314810119695 139.526711835987,36.1311555750502 139.526454977761,36.1312933745179 139.526201869291,36.1313251743607 139.525959318088,36.1310581233677 139.5258957261,36.1310036803019 139.525251418449,36.1306469071657 139.524866575711,36.1309446925886 139.524363528689,36.1313843824565 139.524175578012,36.1317113389896 139.524124975907,36.1318923321989 139.524106903726,36.1320587288134 139.524124228038,36.1322422094422 139.524144544455,36.132515687638 139.524133444387,36.1327315383141 139.524096096055,36.1328726184848 139.524046665484,36.132997504733 139.523911010327,36.1332367526198 139.523818449519,36.1333339849324 139.523755785148,36.1333871140552 139.524181,36.13374 139.524558,36.133945</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

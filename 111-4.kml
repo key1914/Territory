@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="111_4" id="111_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>111_4</name>
+  <Placemark id="111_4.1">
+	<name>111-4</name>
+	<description>鴻巣市立下忍小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#111_4">
+		<SimpleData name="fid">298</SimpleData>
+		<SimpleData name="no">111</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.109544046944897,139.46109057646342</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.461074188926,36.109914476559 139.461077095743,36.1089094933132 139.461142625968,36.1086736156587 139.461192487606,36.1084759934037 139.461234870229,36.108220438867 139.461283293241,36.1078729506925 139.461303505563,36.1075329759298 139.462902,36.10783 139.462821940899,36.1100557903824 139.461457025216,36.1108390823339 139.461074188926,36.109914476559</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

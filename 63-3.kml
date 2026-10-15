@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="63_3" id="63_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>63_3</name>
+  <Placemark id="63_3.1">
+	<name>63-3</name>
+	<description>真名板高山古墳</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#63_3">
+		<SimpleData name="fid">388</SimpleData>
+		<SimpleData name="no">63</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.138578795065143,139.52269172386309</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.519694,36.138618 139.518971489552,36.1383100907962 139.519611263635,36.1360405072019 139.519893893205,36.136228006647 139.520082655859,36.1362976151241 139.52029857399,36.1363465975783 139.520643529571,36.136511715858 139.520742842217,36.1365479025202 139.520853733012,36.1365755583795 139.521101164687,36.1366006889094 139.521237364468,36.1366268787899 139.521808918453,36.1366356358629 139.5217703915,36.1363168359884 139.522326808898,36.1362915381196 139.522517448748,36.1362468455926 139.522733787203,36.1362058248287 139.524028881161,36.1361133123094 139.524029,36.13621 139.523878,36.136539 139.5240796,36.1372892 139.52435,36.138306 139.524093,36.138514 139.523256,36.138705 139.522999,36.138896 139.519694,36.138618</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

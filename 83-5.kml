@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="83_5" id="83_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>83_5</name>
+  <Placemark id="83_5.1">
+	<name>83-5</name>
+	<description>さきたま古墳公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#83_5">
+		<SimpleData name="fid">548</SimpleData>
+		<SimpleData name="no">83</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="angle">-31</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.126577362497535,139.4834063834449</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.481098,36.126761 139.4812684,36.1267031 139.481884,36.1264084 139.4833324,36.1256761 139.4836274,36.1254291 139.4839064,36.1252645 139.484304,36.12575 139.484564,36.126 139.485496,36.127298 139.482894,36.128469 139.482259,36.127588 139.4821415,36.1274743 139.481548,36.126861 139.481414,36.126773 139.481228,36.126776 139.481098,36.126761</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

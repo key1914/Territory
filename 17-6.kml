@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="17_6" id="17_6">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>17_6</name>
+  <Placemark id="17_6.1">
+	<name>17-6</name>
+	<description>埼玉県総合教育センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#17_6">
+		<SimpleData name="fid">493</SimpleData>
+		<SimpleData name="no">17</SimpleData>
+		<SimpleData name="block_no">6</SimpleData>
+		<SimpleData name="angle">16</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.147732080427595,139.47437160511774</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4741304,36.1480013 139.474367,36.147317 139.4744549,36.1473575 139.4777416,36.1481246 139.4774992,36.1487897 139.4741304,36.1480013</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

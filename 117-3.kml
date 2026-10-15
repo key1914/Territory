@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="117_3" id="117_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>117_3</name>
+  <Placemark id="117_3.1">
+	<name>117-3</name>
+	<description>袋</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#117_3">
+		<SimpleData name="fid">417</SimpleData>
+		<SimpleData name="no">117</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.099007885504783,139.47284986871489</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4702537,36.0991979 139.4703986,36.0989249 139.4708331,36.0977286 139.4710101,36.0973558 139.471147,36.096993 139.473668,36.097597 139.47325,36.098723 139.4726663,36.1003386 139.471657,36.100174 139.471476,36.100121 139.470694,36.099356 139.470576,36.09929 139.4702537,36.0991979</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

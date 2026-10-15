@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="31_5" id="31_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>31_5</name>
+  <Placemark id="31_5.1">
+	<name>31-5</name>
+	<description>行田市役所</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#31_5">
+		<SimpleData name="fid">189</SimpleData>
+		<SimpleData name="no">31</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.133233119730846,139.45616691964574</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4559079,36.1335019 139.456201,36.132716 139.456863,36.131616 139.456892,36.131454 139.4580054,36.1319041 139.4577533,36.1323061 139.4575548,36.1325844 139.457249,36.1328877 139.4573241,36.1331563 139.4565302,36.1336188 139.4559079,36.1335019</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

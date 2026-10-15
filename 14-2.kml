@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="14_2" id="14_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>14_2</name>
+  <Placemark id="14_2.1">
+	<name>14-2</name>
+	<description>桜町三丁目 A</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#14_2">
+		<SimpleData name="fid">578</SimpleData>
+		<SimpleData name="no">14</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="angle">-9.5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.149979099471068,139.47017614078465</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.469319745092,36.1505422675988 139.470267698653,36.1504086325833 139.471148320823,36.1502912957941 139.471645631334,36.150226838233 139.47027881927,36.149000914628 139.469541122014,36.1495946126965 139.469148843436,36.1495971445234 139.469319745092,36.1505422675988</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

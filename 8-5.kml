@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="8_5" id="8_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>8_5</name>
+  <Placemark id="8_5.1">
+	<name>8-5</name>
+	<description>行田市立見沼小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#8_5">
+		<SimpleData name="fid">568</SimpleData>
+		<SimpleData name="no">8</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.165435271994028,139.48526096236432</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.483288,36.165947 139.483776,36.165864 139.484292,36.165932 139.484568,36.165984 139.485055,36.166019 139.485496,36.166025 139.485515,36.165882 139.485567,36.1655314 139.4856287,36.1651178 139.485714599651,36.1646839324349 139.485459017201,36.1646595682785 139.485424596315,36.1646550785978 139.485309595044,36.1646454348508 139.484721663421,36.1646356955556 139.484672833781,36.1646329123467 139.48402972995,36.164510271355 139.483924840715,36.1647825695108 139.483840753935,36.1648836738533 139.483702113893,36.1650440992814 139.483622895813,36.1653297088205 139.48356808929,36.1655255242134 139.483381768152,36.1657936121824 139.483288,36.165947</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

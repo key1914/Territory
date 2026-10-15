@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="58_2" id="58_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>58_2</name>
+  <Placemark id="58_2.1">
+	<name>58-2</name>
+	<description>埼玉県行田浄水場</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#58_2">
+		<SimpleData name="fid">665</SimpleData>
+		<SimpleData name="no">58</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.13673326942213,139.49724384516469</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.495843,36.139484 139.497454040656,36.1384144146256 139.49824140969,36.1379594093914 139.498976037719,36.1372882598583 139.497610512422,36.1359239473935 139.497441,36.136068 139.497216,36.136281 139.496913,36.136381 139.496632,36.13646 139.496484,36.136545 139.495759,36.137019 139.495422,36.137241 139.495068,36.137529 139.495843,36.139484</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

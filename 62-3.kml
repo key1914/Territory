@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="62_3" id="62_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>62_3</name>
+  <Placemark id="62_3.1">
+	<name>62-3</name>
+	<description>藤間</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#62_3">
+		<SimpleData name="fid">675</SimpleData>
+		<SimpleData name="no">62</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.129247535688052,139.51589483579721</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.513715597784,36.1305869414943 139.513891553346,36.1305995733809 139.513998043374,36.1306286154917 139.514514826971,36.13091179478 139.514715841293,36.1309673009544 139.514855516417,36.1309759787686 139.515645503416,36.1308841902946 139.516571318403,36.130766569704 139.516414,36.129982 139.516611,36.130036 139.516702,36.130022 139.516924,36.130028 139.517244,36.129982 139.517905,36.129332 139.517328508041,36.1289599451608 139.51585734079,36.127591137313 139.515571296715,36.1273617987533 139.5146942,36.1268923 139.514093039955,36.1280165406491 139.513920212815,36.1285096709928 139.513715597784,36.1305869414943</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

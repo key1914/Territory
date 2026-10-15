@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="98_2" id="98_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>98_2</name>
+  <Placemark id="98_2.1">
+	<name>98-2</name>
+	<description>行田総合病院</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#98_2">
+		<SimpleData name="fid">760</SimpleData>
+		<SimpleData name="no">98</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="angle">-38</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.125753074484933,139.45428684318497</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.454311438655,36.1269351330685 139.4584821,36.1249216 139.4578381,36.1246236 139.4576411,36.1250376 139.4565261,36.1253136 139.4563291,36.1255016 139.4560091,36.1255186 139.4557701,36.1257056 139.4556011,36.1256516 139.4557091,36.1254446 139.453728740432,36.1235584579594 139.452548693498,36.1243726100137 139.454311438655,36.1269351330685</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="122_1" id="122_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>122_1</name>
+  <Placemark id="122_1.1">
+	<name>122-1</name>
+	<description>北新宿</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#122_1">
+		<SimpleData name="fid">815</SimpleData>
+		<SimpleData name="no">122</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.107200354871466,139.43830625038567</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.436763,36.108413 139.437809,36.108257 139.439169220619,36.1069477947015 139.438981447613,36.1068144161268 139.438799885587,36.1066472561766 139.437725967663,36.1063607499833 139.437385,36.107167 139.436807,36.107771 139.436129,36.108259 139.436281,36.108348 139.436495,36.108409 139.436763,36.108413</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

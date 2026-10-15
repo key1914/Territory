@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="156_1" id="156_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>156_1</name>
+  <Placemark id="156_1.1">
+	<name>156-1</name>
+	<description>埼玉県立吹上秋桜高校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#156_1">
+		<SimpleData name="fid">891</SimpleData>
+		<SimpleData name="no">156</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.087943089780623,139.4667460362918</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.467277954215,36.0905125326046 139.46785467353,36.0900152602418 139.469099,36.089075 139.467458,36.08598 139.465595,36.085699 139.466728,36.087919 139.465332620146,36.0885660913237 139.465652525681,36.0891835410527 139.465792043101,36.0893523650592 139.467277954215,36.0905125326046</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

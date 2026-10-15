@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="42_1" id="42_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>42_1</name>
+  <Placemark id="42_1.1">
+	<name>42-1</name>
+	<description>旭町</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#42_1">
+		<SimpleData name="fid">631</SimpleData>
+		<SimpleData name="no">42</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="angle">4.5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.139898315571742,139.46499216725502</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.463999,36.140125 139.465916,36.140249 139.466033003062,36.1390620745803 139.464121,36.138941 139.463999,36.140125</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

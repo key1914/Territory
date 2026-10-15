@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="77_1" id="77_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>77_1</name>
+  <Placemark id="77_1.1">
+	<name>77-1</name>
+	<description>みらい</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#77_1">
+		<SimpleData name="fid">515</SimpleData>
+		<SimpleData name="no">77</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.124289497032869,139.46903006873035</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4672657,36.1259395 139.4672013,36.123448 139.4671208,36.1228934 139.4669438,36.1219401 139.4683332,36.1217927 139.4701893,36.1215674 139.4704736,36.122122 139.4730431,36.1224774 139.472602,36.124457 139.4709993,36.1245529 139.4701517,36.1245919 139.469412,36.124704 139.468863,36.124892 139.468289,36.125201 139.4672657,36.1259395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="69_3" id="69_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>69_3</name>
+  <Placemark id="69_3.1">
+	<name>69-3</name>
+	<description>行田市下忍</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#69_3">
+		<SimpleData name="fid">77</SimpleData>
+		<SimpleData name="no">69</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.12775907196049,139.46101259854109</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.459089,36.128127 139.4596333,36.1278425 139.4611138,36.1271752 139.4614625,36.1272749 139.4616503,36.1273052 139.4618058,36.1273572 139.4621224,36.1274655 139.462058,36.1275435 139.4619239,36.1277341 139.461779,36.1279075 139.461592,36.128022 139.461422,36.128156 139.461267,36.128359 139.4611621,36.1285054 139.46095,36.128732 139.460792,36.128927 139.460355,36.12878 139.460041,36.128592 139.459613,36.128343 139.4594884,36.1282931 139.459089,36.128127</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

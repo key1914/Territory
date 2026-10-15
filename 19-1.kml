@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="19_1" id="19_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>19_1</name>
+  <Placemark id="19_1.1">
+	<name>19-1</name>
+	<description>勝呂会館</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#19_1">
+		<SimpleData name="fid">102</SimpleData>
+		<SimpleData name="no">19</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.149644640483679,139.48135098254238</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.480468,36.148572 139.482739,36.148598 139.482786,36.149046 139.482535,36.150444 139.482568,36.150617 139.482777,36.150903 139.482862,36.15095 139.483165,36.151228 139.4826505,36.1515768 139.4823287,36.1518454 139.4808856,36.1516201 139.4811485,36.1504896 139.4800166,36.1503077 139.480468,36.148572</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

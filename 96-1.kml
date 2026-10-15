@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="96_1" id="96_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>96_1</name>
+  <Placemark id="96_1.1">
+	<name>96-1</name>
+	<description>久伊豆神社／野</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#96_1">
+		<SimpleData name="fid">755</SimpleData>
+		<SimpleData name="no">96</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.103408790852512,139.49324052704313</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.495580936817,36.1050191534562 139.496937,36.104132 139.4964844,36.1036778 139.496069,36.10374 139.495914,36.103008 139.495817,36.102118 139.495472480597,36.1013103102078 139.495272506645,36.10153621013 139.494885489417,36.1019861492395 139.49454417185,36.1022504825798 139.494324547173,36.1024424985244 139.494236041706,36.102563004843 139.494210950737,36.1026185940102 139.494117849601,36.1027149312436 139.494026381817,36.1027901533848 139.493544359637,36.1030395669093 139.49308638586,36.1031765236743 139.492557855072,36.1033288265973 139.4927487,36.1039693 139.4929337,36.1043383 139.493478,36.104332 139.4942187,36.1042483 139.4945357,36.1042713 139.4946147,36.1042683 139.4947397,36.1041983 139.495580936817,36.1050191534562</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

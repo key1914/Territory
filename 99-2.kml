@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="99_2" id="99_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>99_2</name>
+  <Placemark id="99_2.1">
+	<name>99-2</name>
+	<description>前谷</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#99_2">
+		<SimpleData name="fid">25</SimpleData>
+		<SimpleData name="no">99</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="angle">-38</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.121074831600481,139.4533219585027</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4508227,36.1214232 139.4508485,36.1209323 139.451073547425,36.1209286953801 139.452788820758,36.1205966539047 139.452573445087,36.1200434884026 139.452756304536,36.1199939385705 139.453090491977,36.1199413275095 139.4531445,36.1202736 139.4532035,36.1204903 139.4534234,36.1204513 139.454448,36.119784 139.4548587,36.1201692 139.4543097,36.1205642 139.4546827,36.1209192 139.4542427,36.1212512 139.4539607,36.1209762 139.4532367,36.1210862 139.4532757,36.1212772 139.4525687,36.1217512 139.4529877,36.1221262 139.4525447,36.1224482 139.4521237,36.1220672 139.4513297,36.1225982 139.4512187,36.1224359 139.4509107,36.1219472 139.4508646,36.1217686 139.4508227,36.1214232</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

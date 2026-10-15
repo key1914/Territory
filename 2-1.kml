@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="2_1" id="2_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>2_1</name>
+  <Placemark id="2_1.1">
+	<name>2-1</name>
+	<description>行田市須加公民館</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#2_1">
+		<SimpleData name="fid">549</SimpleData>
+		<SimpleData name="no">2</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.185471284156421,139.48295642151462</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4801067,36.187324 139.4811187,36.187478 139.4819447,36.187547 139.4825667,36.18759 139.4833717,36.187651 139.484321408959,36.1877960390408 139.484527499911,36.1869854146306 139.484703668793,36.1865687663586 139.484794558609,36.1862845465067 139.484814935602,36.1862312210141 139.484857260998,36.1859217165555 139.484915458417,36.1856730548537 139.484560983226,36.1855460786655 139.484269996128,36.1854772998969 139.484121857241,36.1854667185479 139.483952555657,36.1854720092224 139.48384672505,36.1854736482766 139.483523359486,36.185504444997 139.483292384083,36.1854941794236 139.483066541466,36.1854582499164 139.482900883452,36.1853891836741 139.48258790065,36.1852427884923 139.482353474655,36.1851587961676 139.4821657,36.185112 139.4818191,36.1851401 139.4816467,36.185135 139.4816317,36.185526 139.4813957,36.185538 139.4814057,36.185618 139.4808809,36.185622 139.4808199,36.186426 139.4803229,36.186419 139.4802619,36.186463 139.4802167,36.186893 139.4801067,36.187324</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

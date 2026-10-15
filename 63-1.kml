@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="63_1" id="63_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>63_1</name>
+  <Placemark id="63_1.1">
+	<name>63-1</name>
+	<description>真名板高山古墳</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#63_1">
+		<SimpleData name="fid">387</SimpleData>
+		<SimpleData name="no">63</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.131600348903731,139.52067132453061</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.520455,36.131 139.522010000211,36.1320789717703 139.521693261438,36.1322370074192 139.521430216731,36.1324559971773 139.521251478088,36.1326335532107 139.521118119976,36.1327818262679 139.521065363009,36.1328571058788 139.520552284437,36.1337567032562 139.52019434399,36.1345180328099 139.520089532318,36.1348105128659 139.520228084934,36.1350093094587 139.519844052842,36.1352406240812 139.519267857211,36.1358221847387 139.519153642925,36.1359053803797 139.518895649604,36.1356336739269 139.518615984172,36.1354348800069 139.518179497757,36.1350806292876 139.518014129733,36.1349920621118 139.517701060497,36.1347151306411 139.517264166876,36.135023768609 139.517073116249,36.1350510068928 139.517029324462,36.1350446207418 139.51699634302,36.1350280380166 139.516568,36.134733 139.520455,36.131</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

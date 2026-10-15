@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="85_3" id="85_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>85_3</name>
+  <Placemark id="85_3.1">
+	<name>85-3</name>
+	<description>テクノ・ホルティ園芸専門学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#85_3">
+		<SimpleData name="fid">372</SimpleData>
+		<SimpleData name="no">85</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.12350557504309,139.48402081514396</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4833885,36.1246123 139.48308,36.124235 139.48341,36.124015 139.48348,36.123762 139.483486,36.123615 139.483421,36.12318 139.483269,36.122757 139.4839678,36.1224458 139.4849656,36.1220471 139.4851587,36.1219171 139.4852982,36.1226884 139.4852767,36.1230524 139.4852124,36.1235291 139.4851909,36.1238757 139.4847296,36.1239884 139.4842897,36.1241097 139.4839678,36.124205 139.4836352,36.124491 139.4833885,36.1246123</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

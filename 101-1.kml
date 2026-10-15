@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="101_1" id="101_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>101_1</name>
+  <Placemark id="101_1.1">
+	<name>101-1</name>
+	<description>市営門井球場</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#101_1">
+		<SimpleData name="fid">121</SimpleData>
+		<SimpleData name="no">101</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="angle">13</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.11793115853402,139.44181814838336</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4410426,36.1185756 139.441321,36.117628 139.443162,36.117981 139.4428558,36.1189656 139.4442988,36.1192429 139.4443042,36.1194683 139.443521,36.1197846 139.4427002,36.1194336 139.4421531,36.1191433 139.4410426,36.1185756</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="68_3" id="68_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>68_3</name>
+  <Placemark id="68_3.1">
+	<name>68-3</name>
+	<description>行田市立南小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#68_3">
+		<SimpleData name="fid">692</SimpleData>
+		<SimpleData name="no">68</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="angle">40.5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.129414252645624,139.46172030211221</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.461615607713,36.1305843408164 139.462395008521,36.1298389116983 139.460892588799,36.1288021662617 139.460847,36.128857 139.460792,36.128927 139.460713,36.129051 139.460598,36.129239 139.46056,36.129284 139.460240668717,36.1296391327351 139.461615607713,36.1305843408164</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

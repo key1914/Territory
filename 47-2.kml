@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="47_2" id="47_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>47_2</name>
+  <Placemark id="47_2.1">
+	<name>47-2</name>
+	<description>行田市立東小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#47_2">
+		<SimpleData name="fid">502</SimpleData>
+		<SimpleData name="no">47</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.136930328454646,139.47204501076115</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.472068615288,36.1360518569137 139.473969080458,36.1364812986632 139.4739012,36.1367276 139.473432460069,36.1377687284025 139.472029991797,36.1372064564079 139.471629301588,36.1369119488029 139.471253095472,36.1372400873915 139.470143824451,36.1364567398021 139.47049,36.135954 139.472068615288,36.1360518569137</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="45_1" id="45_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>45_1</name>
+  <Placemark id="45_1.1">
+	<name>45-1</name>
+	<description>長野一丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#45_1">
+		<SimpleData name="fid">319</SimpleData>
+		<SimpleData name="no">45</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="angle">20</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.141887818382912,139.47147340164125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.469874,36.142532 139.469676940814,36.1419606681599 139.470448,36.141405 139.472393754451,36.1420282153879 139.472219322225,36.1426990566618 139.47218636316,36.1426947868147 139.472120295596,36.1429008006394 139.4710485,36.1428694 139.471247,36.1424275 139.4706247,36.1423409 139.469874,36.142532</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="118_1" id="118_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>118_1</name>
+  <Placemark id="118_1.1">
+	<name>118-1</name>
+	<description>壱里山町</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#118_1">
+		<SimpleData name="fid">805</SimpleData>
+		<SimpleData name="no">118</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="angle">-36</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.113631729831752,139.43357617042119</SimpleData>
+		<SimpleData name="scale">3500</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.434687,36.116559 139.434965,36.116389 139.432944,36.114238 139.434914,36.113021 139.434784962307,36.1128842453282 139.434374090135,36.1131273516601 139.433663979945,36.1123839871351 139.432182,36.113919 139.434687,36.116559</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

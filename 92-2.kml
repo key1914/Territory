@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="92_2" id="92_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>92_2</name>
+  <Placemark id="92_2.1">
+	<name>92-2</name>
+	<description>常世岐姫神社／渡柳</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#92_2">
+		<SimpleData name="fid">748</SimpleData>
+		<SimpleData name="no">92</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.119217863934154,139.48067767304778</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.478147057387,36.1213369023512 139.480113912764,36.1216324145146 139.480331735328,36.1207221582727 139.482302228407,36.121025692305 139.482509833977,36.1201173274376 139.481190440548,36.119910636072 139.480830293746,36.119368820701 139.480615078073,36.1190077484325 139.480343479383,36.1187214294687 139.479843501671,36.1182645296864 139.479813303311,36.1183383021676 139.479568479007,36.1186916345284 139.479402292444,36.1189019058049 139.478631331308,36.1196346150367 139.478501144497,36.1199294842227 139.478147057387,36.1213369023512</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="144_1" id="144_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>144_1</name>
+  <Placemark id="144_1.1">
+	<name>144-1</name>
+	<description>鴻巣市立吹上小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#144_1">
+		<SimpleData name="fid">865</SimpleData>
+		<SimpleData name="no">144</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="angle">-27.6</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.104179777338892,139.44952977095366</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.447788,36.10494 139.448657,36.104811 139.449352,36.104661 139.450248,36.104397 139.451007,36.104096 139.45297,36.103232 139.452795,36.102979 139.45261233458,36.1023783392215 139.451552857196,36.1025928974426 139.451324311442,36.1026398538833 139.450768,36.103015 139.45111,36.103254 139.451172,36.103312 139.451195,36.103349 139.451214,36.103478 139.451138,36.103492 139.450373,36.103779 139.449759,36.104052 139.449398,36.104212 139.449074,36.104306 139.448087,36.104682 139.447765,36.104768 139.447788,36.10494</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="116_4" id="116_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>116_4</name>
+  <Placemark id="116_4.1">
+	<name>116-4</name>
+	<description>袋ふれあい公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#116_4">
+		<SimpleData name="fid">802</SimpleData>
+		<SimpleData name="no">116</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.101195237595327,139.47087572967092</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.470004539805,36.1043399818352 139.470007514401,36.1043034515127 139.470442136524,36.1023169932348 139.470437832084,36.1022551928281 139.471280368199,36.1013978533743 139.47090820401,36.1011737601215 139.470284417202,36.1008080193879 139.470111590629,36.1007450578246 139.469934304745,36.1007215401752 139.469804712689,36.1007087136773 139.4691744054,36.1007741921625 139.468723548822,36.1008278776635 139.46787,36.100929 139.468269,36.103005 139.468391,36.103496 139.468780657638,36.1044197166435 139.469028824297,36.1043563440633 139.469595425057,36.1042743147462 139.470004539805,36.1043399818352</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

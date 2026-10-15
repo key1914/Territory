@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="116_6" id="116_6">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>116_6</name>
+  <Placemark id="116_6.1">
+	<name>116-6</name>
+	<description>袋ふれあい公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#116_6">
+		<SimpleData name="fid">804</SimpleData>
+		<SimpleData name="no">116</SimpleData>
+		<SimpleData name="block_no">6</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.102463169753769,139.47381253150238</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.47447473515,36.1047499459996 139.474639,36.104563 139.475076,36.103757 139.475749,36.10244 139.476304,36.101701 139.476860053702,36.1009137483934 139.476771,36.100869 139.476359,36.10077 139.475698,36.100597 139.47451,36.100651 139.474489089247,36.1006461547307 139.473874763116,36.1022885915236 139.473003764643,36.1020739425275 139.473105608325,36.1017772113132 139.473037960002,36.1017811388285 139.472984084392,36.1018420152921 139.472578252058,36.1018076827661 139.473105692374,36.1025323186077 139.473437862662,36.1030896031813 139.473790534809,36.1035347351077 139.473915813703,36.1037180223511 139.474051276165,36.1040131620731 139.474106821855,36.1041871903938 139.474162763684,36.1043777260397 139.474241219989,36.1044879666032 139.474430559867,36.1046350804177 139.47447473515,36.1047499459996</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

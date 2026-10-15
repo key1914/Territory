@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="28_3" id="28_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>28_3</name>
+  <Placemark id="28_3.1">
+	<name>28-3</name>
+	<description>行田市地域交流センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#28_3">
+		<SimpleData name="fid">607</SimpleData>
+		<SimpleData name="no">28</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.147890852410484,139.50349181184424</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.501236708363,36.1491779146336 139.501419612007,36.1491470167736 139.501686697243,36.1491080854527 139.501761989986,36.1491221159012 139.501896438203,36.1491597864523 139.502484634021,36.1492201897543 139.503874070349,36.1497434048837 139.504479025894,36.1485970739768 139.505020502648,36.1475450561653 139.504798955412,36.147326803362 139.504693558105,36.1471738961769 139.504501526015,36.1467666559835 139.504360058167,36.1469266759917 139.503287681653,36.1465528614545 139.503205344928,36.146695797823 139.502872365716,36.1465398955288 139.502777,36.146706 139.502492,36.147299 139.502450941173,36.1473783898346 139.502214,36.147867 139.501929099584,36.1483873965059 139.501866883264,36.1485013559493 139.501613,36.148794 139.501351,36.148958 139.501236708363,36.1491779146336</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

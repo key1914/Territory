@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="121_2" id="121_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>121_2</name>
+  <Placemark id="121_2.1">
+	<name>121-2</name>
+	<description>北新宿ロータリー公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#121_2">
+		<SimpleData name="fid">422</SimpleData>
+		<SimpleData name="no">121</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.109839633922142,139.44216786533141</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4413666,36.110333 139.4415007,36.1101068 139.4415597,36.1098944 139.4416134,36.1096951 139.4416509,36.1094047 139.44376,36.109586 139.444323,36.109721 139.444109,36.110132 139.4438235,36.1105193 139.4437055,36.1105627 139.4432173,36.1103373 139.4427882,36.110762 139.441946,36.110528 139.4413666,36.110333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

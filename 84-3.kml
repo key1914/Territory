@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="84_3" id="84_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>84_3</name>
+  <Placemark id="84_3.1">
+	<name>84-3</name>
+	<description>行田市斎場</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#84_3">
+		<SimpleData name="fid">728</SimpleData>
+		<SimpleData name="no">84</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.121923221977234,139.48189800782029</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.481129352206,36.1238260045813 139.481362,36.123706 139.481735,36.1235 139.482292,36.123218 139.482707,36.12302 139.48318392684,36.1227915609753 139.483271,36.122744 139.482921,36.122164 139.482623,36.122017 139.480805619717,36.1217399053207 139.480472255795,36.1231672122698 139.480692570628,36.1233103140882 139.480620255091,36.1233895467036 139.481129352206,36.1238260045813</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

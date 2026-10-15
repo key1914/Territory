@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="108_2" id="108_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>108_2</name>
+  <Placemark id="108_2.1">
+	<name>108-2</name>
+	<description>行田市立下忍小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#108_2">
+		<SimpleData name="fid">781</SimpleData>
+		<SimpleData name="no">108</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.118910688335234,139.4658264457656</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4636304,36.1223445 139.469281575129,36.119502385038 139.469217243395,36.1187885991709 139.466430595688,36.1189377603234 139.465960148592,36.1189110842024 139.465693352765,36.1188484252979 139.464525438792,36.1187399820326 139.464344272726,36.1194109376283 139.464169719764,36.1213834330721 139.464045179551,36.1216505425363 139.463937572023,36.1219758848506 139.463544071022,36.1221572843153 139.4636304,36.1223445</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

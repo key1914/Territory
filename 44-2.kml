@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="44_2" id="44_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>44_2</name>
+  <Placemark id="44_2.1">
+	<name>44-2</name>
+	<description>上式公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#44_2">
+		<SimpleData name="fid">636</SimpleData>
+		<SimpleData name="no">44</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="angle">20</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.144775115993333,139.47162373485807</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4710001,36.1452547 139.471704,36.145414 139.472504,36.145795 139.472552266207,36.1458366414344 139.47337,36.144226 139.4727016,36.1440296 139.472239,36.143901 139.4714406,36.1436671 139.4710001,36.1452547</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

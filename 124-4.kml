@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="124_4" id="124_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>124_4</name>
+  <Placemark id="124_4.1">
+	<name>124-4</name>
+	<description>鎌塚三丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#124_4">
+		<SimpleData name="fid">822</SimpleData>
+		<SimpleData name="no">124</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.108324329857226,139.45052465536034</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.451607679643,36.1098215997188 139.451761924667,36.109551982143 139.451759842921,36.1095239517264 139.451737637637,36.1094835879089 139.451770993953,36.1093586648458 139.451331255561,36.109282964716 139.451381240096,36.1085285961939 139.450952963748,36.1084449732214 139.450526537594,36.1083026706376 139.45034823225,36.1082334100852 139.450212664896,36.1081705818445 139.449737633244,36.1086477625811 139.449640313463,36.108806916579 139.44962482594,36.1088663562811 139.449595701598,36.1091353592793 139.449926214997,36.1091423559391 139.450408321554,36.1093027117874 139.450687220372,36.1093859066191 139.450918163635,36.109487206665 139.451607679643,36.1098215997188</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

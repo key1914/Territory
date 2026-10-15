@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="75_2" id="75_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>75_2</name>
+  <Placemark id="75_2.1">
+	<name>75-2</name>
+	<description>行田市立行田中学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#75_2">
+		<SimpleData name="fid">97</SimpleData>
+		<SimpleData name="no">75</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.130123321926696,139.46956658784262</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.470668,36.130062 139.470751,36.130126 139.469841,36.130689 139.469322,36.130243 139.46911,36.130111 139.469046,36.129816 139.4688037,36.129601 139.468392,36.129319 139.468286,36.129372 139.467896,36.129071 139.4682458,36.1287627 139.4684443,36.128611 139.4688225,36.1283684 139.4692087,36.1281799 139.470188,36.127831 139.469957,36.1281517 139.4698337,36.1282947 139.4696352,36.128533 139.4694126,36.1287107 139.4692704,36.1288666 139.4691041,36.1292089 139.4694769,36.1293866 139.4700751,36.1297289 139.470668,36.130062</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

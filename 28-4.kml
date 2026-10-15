@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="28_4" id="28_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>28_4</name>
+  <Placemark id="28_4.1">
+	<name>28-4</name>
+	<description>行田市地域交流センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#28_4">
+		<SimpleData name="fid">608</SimpleData>
+		<SimpleData name="no">28</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.150149808728891,139.50366341811852</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.503691510074,36.1511549798546 139.503895,36.150748 139.504099,36.150545 139.506046,36.151212 139.506366088355,36.1506016752146 139.503874070349,36.1497434048837 139.502484634021,36.1492201897543 139.501896438203,36.1491597864523 139.501761989986,36.1491221159012 139.501686697243,36.1491080854527 139.501419612007,36.1491470167736 139.501236708363,36.1491779146336 139.501184,36.149272 139.501074,36.149352 139.500868232825,36.149494728765 139.500736,36.149588 139.500551,36.149684 139.500156,36.149922 139.503691510074,36.1511549798546</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

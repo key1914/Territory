@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="2_2" id="2_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>2_2</name>
+  <Placemark id="2_2.1">
+	<name>2-2</name>
+	<description>行田市須加公民館</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#2_2">
+		<SimpleData name="fid">550</SimpleData>
+		<SimpleData name="no">2</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.186642356749395,139.48538170203898</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.484321408959,36.1877960390408 139.4854317,36.187963 139.487340685041,36.1883888780511 139.487419745272,36.1875921159674 139.487436816942,36.1874572497798 139.487481203282,36.1870389938818 139.487516536539,36.1864988918594 139.487528587417,36.1863187496049 139.487551847925,36.1861094050406 139.487590615437,36.1857837579405 139.486899876346,36.1857596228657 139.486539971251,36.1857437446998 139.48539196706,36.1857146152845 139.485122393684,36.1857031926838 139.484915458417,36.1856730548537 139.484857260998,36.1859217165555 139.484814935602,36.1862312210141 139.484703668793,36.1865687663586 139.484527499911,36.1869854146306 139.484321408959,36.1877960390408</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="132_3" id="132_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>132_3</name>
+  <Placemark id="132_3.1">
+	<name>132-3</name>
+	<description>吹上本町せせらぎ公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#132_3">
+		<SimpleData name="fid">840</SimpleData>
+		<SimpleData name="no">132</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="angle">-36</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.104920812585753,139.4573539646228</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.457915857298,36.1056595212835 139.45842748724,36.1053559834336 139.457984842265,36.1049313861605 139.457168,36.10412 139.456435193269,36.1045838411274 139.457258777901,36.1054592113957 139.457438530451,36.1053529939609 139.457575228144,36.1054937634973 139.457670439567,36.1054351817426 139.457915857298,36.1056595212835</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="64_5" id="64_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>64_5</name>
+  <Placemark id="64_5.1">
+	<name>64-5</name>
+	<description>全龍寺／真名板</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#64_5">
+		<SimpleData name="fid">682</SimpleData>
+		<SimpleData name="no">64</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.12863007997629,139.52901453351436</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.529077529488,36.1321950351642 139.529887,36.131808 139.531003745388,36.1310060313967 139.530177836232,36.1296201325425 139.530127687443,36.1295465916648 139.529893822562,36.1293016389211 139.529580097948,36.1284762672287 139.529649324965,36.1284602885062 139.529895356188,36.1284487040066 139.529597098813,36.1278727632747 139.529431243917,36.1276074159615 139.529125900073,36.1271831286287 139.528844,36.127254 139.52874,36.127261 139.52777201544,36.1288285005382 139.527584517885,36.1290797537316 139.527339424827,36.1292978790132 139.527060709068,36.1294511489997 139.526804231268,36.1295601141988 139.527201531862,36.1299106721024 139.527759932561,36.1304610455839 139.527997427965,36.1307542030834 139.528504314569,36.1313818808612 139.529077529488,36.1321950351642</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

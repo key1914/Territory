@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="2_3" id="2_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>2_3</name>
+  <Placemark id="2_3.1">
+	<name>2-3</name>
+	<description>行田市須加公民館</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#2_3">
+		<SimpleData name="fid">551</SimpleData>
+		<SimpleData name="no">2</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.187209588155845,139.48812157876259</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.487340685041,36.1883888780511 139.4876847,36.188482 139.4887247,36.188811 139.4897877,36.18921 139.4908277,36.189504 139.491419391945,36.188771419544 139.491361619995,36.1886449449697 139.491309,36.188016 139.49137,36.187211 139.491352,36.187117 139.491236,36.186901 139.490747,36.186453 139.490747,36.186413 139.490600284371,36.1863652275716 139.4905527,36.18635 139.489346289327,36.1860701758834 139.488836253114,36.1859390237145 139.488324514777,36.1858291753725 139.4880265821,36.1857907324464 139.487590615437,36.1857837579405 139.487551847925,36.1861094050406 139.487528587417,36.1863187496049 139.487516536539,36.1864988918594 139.487481203282,36.1870389938818 139.487436816942,36.1874572497798 139.487419745272,36.1875921159674 139.487340685041,36.1883888780511</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

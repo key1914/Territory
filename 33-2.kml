@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="33_2" id="33_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>33_2</name>
+  <Placemark id="33_2.1">
+	<name>33-2</name>
+	<description>本丸</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#33_2">
+		<SimpleData name="fid">15</SimpleData>
+		<SimpleData name="no">33</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.134768290108518,139.45461051753225</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4540771,36.1350933 139.4540878,36.1348031 139.454061,36.1347034 139.4540556,36.1346124 139.4540449,36.1343048 139.4540395,36.1341878 139.4543775,36.1342095 139.4544472,36.1341792 139.454458,36.1341142 139.454458,36.1340232 139.4546082,36.1340232 139.4546725,36.1340535 139.4546779,36.1341748 139.4547047,36.1342398 139.4548335,36.1342398 139.4551339,36.1342442 139.4553109,36.1342702 139.4556006,36.1343092 139.455291,36.135152 139.4548549,36.135115 139.4540771,36.1350933</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

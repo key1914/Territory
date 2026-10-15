@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="129_5" id="129_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>129_5</name>
+  <Placemark id="129_5.1">
+	<name>129-5</name>
+	<description>吹上本町四丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#129_5">
+		<SimpleData name="fid">145</SimpleData>
+		<SimpleData name="no">129</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="angle">-36</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.103848917531778,139.45244872668741</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4513533,36.1050884 139.4512433,36.1047807 139.4511736,36.1044838 139.4511186,36.104062 139.452512,36.103424 139.452801,36.103921 139.452973,36.104057 139.4532007,36.1044014 139.4529432,36.1045293 139.4529164,36.1044729 139.4526321,36.1045444 139.4524409,36.1045539 139.452109,36.1045444 139.4520151,36.1045336 139.4519561,36.1045271 139.4517898,36.1047438 139.4513533,36.1050884</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

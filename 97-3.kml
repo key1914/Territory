@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="97_3" id="97_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>97_3</name>
+  <Placemark id="97_3.1">
+	<name>97-3</name>
+	<description>満願寺</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#97_3">
+		<SimpleData name="fid">53</SimpleData>
+		<SimpleData name="no">97</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.100767303250393,139.49703726350865</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.494593,36.099754 139.494945,36.099459 139.495504,36.098647 139.4962031,36.0989161 139.4972277,36.0994189 139.497453,36.0996486 139.498719,36.1006499 139.4982771,36.1013434 139.4970701,36.1007669 139.4961904,36.1002468 139.495592,36.100903 139.495397,36.100621 139.494987,36.100245 139.494593,36.099754</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

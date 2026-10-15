@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="160_3" id="160_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>160_3</name>
+  <Placemark id="160_3.1">
+	<name>160-3</name>
+	<description>旧鴻巣市立小谷小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#160_3">
+		<SimpleData name="fid">901</SimpleData>
+		<SimpleData name="no">160</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.08285594047382,139.46100493541078</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.459624172624,36.0844896485099 139.461092903696,36.0838775627033 139.462459428335,36.0836081048157 139.463625154233,36.0825508953043 139.462709320539,36.0823011890851 139.462441514291,36.0822876986508 139.462473508655,36.0820893870798 139.462553609117,36.0819088754994 139.462732534178,36.0815532813265 139.462524682234,36.0807578329963 139.458452,36.082657 139.459624172624,36.0844896485099</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

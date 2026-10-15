@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="115_2" id="115_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>115_2</name>
+  <Placemark id="115_2.1">
+	<name>115-2</name>
+	<description>水辺公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#115_2">
+		<SimpleData name="fid">359</SimpleData>
+		<SimpleData name="no">115</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.100587854012417,139.46550200671666</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4652681,36.1007404 139.4654445,36.1002676 139.4656859,36.1003044 139.4659541,36.1003347 139.4664342,36.1002242 139.4670109,36.099962 139.4672684,36.0997106 139.4674267,36.0995437 139.4674669,36.0995697 139.4677593,36.0997973 139.4679711,36.0999186 139.468226,36.1000183 139.4683815,36.1000357 139.4681685,36.1003811 139.4672047,36.1005106 139.4652681,36.1007404</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

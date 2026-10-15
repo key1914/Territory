@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="65_2" id="65_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>65_2</name>
+  <Placemark id="65_2.1">
+	<name>65-2</name>
+	<description>東泉寺／真名板</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#65_2">
+		<SimpleData name="fid">83</SimpleData>
+		<SimpleData name="no">65</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.11902713972588,139.52957967444229</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.5276206,36.1192684 139.527465,36.1189694 139.5274435,36.1188654 139.5274616,36.1183492 139.5275562,36.1179553 139.527634,36.117959 139.528685,36.118427 139.52935,36.118583 139.5295752,36.1189732 139.530509,36.118687 139.530466,36.118254 139.530852,36.117821 139.531131,36.118115 139.5311201,36.1194239 139.5305837,36.1196969 139.5300794,36.1198789 139.5297093,36.1199006 139.5294518,36.1198009 139.5291997,36.1197229 139.528911280289,36.1195887772568 139.5285935,36.1194802 139.5283521,36.1194196 139.5281536,36.1192592 139.5280034,36.1191899 139.5278478,36.1192029 139.5276206,36.1192684</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

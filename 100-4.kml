@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="100_4" id="100_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>100_4</name>
+  <Placemark id="100_4.1">
+	<name>100-4</name>
+	<description>ものつくり大学</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#100_4">
+		<SimpleData name="fid">763</SimpleData>
+		<SimpleData name="no">100</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="angle">-38</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.119114775564519,139.44927537406676</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4479737,36.1212042 139.4492777,36.1204012 139.4498127,36.1202362 139.4507516,36.1200943 139.4509203,36.120056 139.450692956788,36.1188585531739 139.450427301662,36.1168765004421 139.4501116,36.1170263 139.4492826,36.1174393 139.4495846,36.1177263 139.4499556,36.1181193 139.4500056,36.1182183 139.4491746,36.1188393 139.4486396,36.1192423 139.4483336,36.1195633 139.4481126,36.1199283 139.4479716,36.1203263 139.4479296,36.1206873 139.4479737,36.1212042</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="8_3" id="8_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>8_3</name>
+  <Placemark id="8_3.1">
+	<name>8-3</name>
+	<description>行田市立見沼小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#8_3">
+		<SimpleData name="fid">566</SimpleData>
+		<SimpleData name="no">8</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.1629049180926,139.48380165933446</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.481853313381,36.1628751611605 139.482010676882,36.1629719692988 139.482467854992,36.1632362931395 139.482506839722,36.163255932869 139.482866965043,36.1634237301123 139.483219704526,36.1635484934038 139.483069678263,36.1638330805946 139.483879603962,36.1640536765019 139.484124740659,36.1640990324127 139.484035207481,36.1644352512881 139.48402972995,36.164510271355 139.484672833781,36.1646329123467 139.484721663421,36.1646356955556 139.484886613831,36.1638661885267 139.485172669414,36.1628264104748 139.484690476771,36.1627150298276 139.484551782548,36.1626895112047 139.484379227721,36.1626649958565 139.484256523031,36.1626372412242 139.484064907361,36.1625655977576 139.483776858463,36.1624175188269 139.483583831437,36.1622818382267 139.483465467101,36.1621470343994 139.48335696646,36.1619925031827 139.483234,36.161851 139.482184131481,36.162482446239 139.481893418745,36.1627766877687 139.481853313381,36.1628751611605</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

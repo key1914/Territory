@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="123_5" id="123_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>123_5</name>
+  <Placemark id="123_5.1">
+	<name>123-5</name>
+	<description>鎌塚四丁目・五丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#123_5">
+		<SimpleData name="fid">355</SimpleData>
+		<SimpleData name="no">123</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.108282529085692,139.44421571345129</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4441799,36.108306 139.444397,36.10696 139.444931,36.106476 139.4452446,36.106324 139.4452714,36.1065103 139.4452661,36.106662 139.4451963,36.1070824 139.4451158,36.1072601 139.4449656,36.1077412 139.4449442,36.1079536 139.4448476,36.1083826 139.4441799,36.108306</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

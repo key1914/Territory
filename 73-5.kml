@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="73_5" id="73_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>73_5</name>
+  <Placemark id="73_5.1">
+	<name>73-5</name>
+	<description>行田市環境センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#73_5">
+		<SimpleData name="fid">435</SimpleData>
+		<SimpleData name="no">73</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="angle">4.6</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.131100056859765,139.47032515904104</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4691738,36.1316425 139.4692275,36.1310663 139.469841,36.130689 139.470751,36.130126 139.470668,36.130062 139.471722,36.129611 139.471829,36.130504 139.471868,36.131098 139.4716575,36.1318072 139.4712123,36.1317617 139.4704881,36.1317292 139.4691738,36.1316425</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

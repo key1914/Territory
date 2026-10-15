@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="22_3" id="22_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>22_3</name>
+  <Placemark id="22_3.1">
+	<name>22-3</name>
+	<description>龍泉寺</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#22_3">
+		<SimpleData name="fid">595</SimpleData>
+		<SimpleData name="no">22</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.151247348019773,139.48808451090849</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.485286253552,36.1517584724962 139.486218821468,36.15263930449 139.487038060477,36.1520644996066 139.487804573565,36.1527877082916 139.487863228933,36.1528666433912 139.4876471,36.1528119 139.4878131,36.1532239 139.4880701,36.1533879 139.488251262209,36.1530209638805 139.489014345937,36.1529970834141 139.489250358858,36.1529486858058 139.489879488885,36.1527589374904 139.487972,36.149859 139.486998,36.150417 139.486429826558,36.1507338548185 139.486071736558,36.1511812886266 139.485970594353,36.1512779879361 139.485286253552,36.1517584724962</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

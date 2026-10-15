@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="43_1" id="43_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>43_1</name>
+  <Placemark id="43_1.1">
+	<name>43-1</name>
+	<description>行田市保健センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#43_1">
+		<SimpleData name="fid">65</SimpleData>
+		<SimpleData name="no">43</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.141626397546901,139.46773806936781</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.465339,36.142444 139.465729,36.141975 139.4660203,36.1417248 139.4666748,36.1414259 139.467201,36.141087 139.467738,36.14035 139.468356,36.140419 139.469235,36.140578 139.4686542,36.1418504 139.4683002,36.1427298 139.4679622,36.1432973 139.467823,36.143424 139.4677691,36.1433839 139.4674741,36.143202 139.4669752,36.1430331 139.465339,36.142444</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

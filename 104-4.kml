@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="104_4" id="104_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>104_4</name>
+  <Placemark id="104_4.1">
+	<name>104-4</name>
+	<description>新宿第一公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#104_4">
+		<SimpleData name="fid">774</SimpleData>
+		<SimpleData name="no">104</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="angle">13</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.116378937296645,139.44311229614951</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.443159485409,36.1169296478171 139.443206,36.116593 139.443176,36.116453 139.443143,36.11609 139.443175834,36.1158914203048 139.441893746668,36.1156513759806 139.441605676595,36.1166239533451 139.443159485409,36.1169296478171</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

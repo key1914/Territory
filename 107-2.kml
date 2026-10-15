@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="107_2" id="107_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>107_2</name>
+  <Placemark id="107_2.1">
+	<name>107-2</name>
+	<description>鴻巣市立吹上北中学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#107_2">
+		<SimpleData name="fid">71</SimpleData>
+		<SimpleData name="no">107</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.111855597320876,139.45281780081191</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.452467,36.1131982 139.4518179,36.1120325 139.4516517,36.1113521 139.4516302,36.110806 139.4515873,36.110377 139.451713,36.110377 139.4524202,36.1102847 139.4524577,36.1107614 139.4525167,36.1109911 139.452624,36.1112555 139.4526455,36.1115068 139.4526937,36.1118535 139.4529941,36.1117842 139.453569,36.112788 139.452467,36.1131982</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

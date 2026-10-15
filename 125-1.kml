@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="125_1" id="125_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>125_1</name>
+  <Placemark id="125_1.1">
+	<name>125-1</name>
+	<description>鎌塚保育所</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#125_1">
+		<SimpleData name="fid">460</SimpleData>
+		<SimpleData name="no">125</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.108752204834602,139.45336037911054</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4516582,36.1085893 139.4528491,36.1086283 139.4529618,36.1085936 139.4531334,36.1085156 139.4532997,36.1083553 139.4533641,36.1083856 139.4537342,36.109222 139.4536913,36.1092481 139.4539327,36.1099805 139.453332,36.110161 139.453238,36.110175 139.453056,36.109444 139.452943,36.109448 139.452534,36.109358 139.4523341,36.109209 139.4516582,36.1085893</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

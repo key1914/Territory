@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="94_1" id="94_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>94_1</name>
+  <Placemark id="94_1.1">
+	<name>94-1</name>
+	<description>正福寺／利田</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#94_1">
+		<SimpleData name="fid">751</SimpleData>
+		<SimpleData name="no">94</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.112760661932548,139.48152467673424</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.481664,36.114019 139.482201684128,36.1132918165435 139.482289251714,36.1131471173705 139.482644796372,36.112387558625 139.482747797962,36.1122702222114 139.483944078276,36.1111352721757 139.480464041122,36.1101601490004 139.479895,36.111169 139.478597,36.112911 139.4790331,36.1131526 139.479654,36.113339 139.480118,36.113432 139.481664,36.114019</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

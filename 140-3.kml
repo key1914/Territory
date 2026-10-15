@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="140_3" id="140_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>140_3</name>
+  <Placemark id="140_3.1">
+	<name>140-3</name>
+	<description>榎戸堰公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#140_3">
+		<SimpleData name="fid">857</SimpleData>
+		<SimpleData name="no">140</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.103675681873654,139.44116295469067</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.442096187161,36.104617438785 139.442127461981,36.1031073322919 139.44174032518,36.1031315628663 139.441754,36.101394 139.440087135515,36.1014041160146 139.440124007868,36.1032307932586 139.440123983526,36.1038568907846 139.440126864694,36.1039843399287 139.440154417833,36.1042293663572 139.440306249469,36.10422599838 139.440471866602,36.1042457177121 139.440840076278,36.1043487464585 139.441058916781,36.104441019567 139.441322286071,36.1045125935766 139.441619175088,36.1045609543571 139.442096187161,36.104617438785</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

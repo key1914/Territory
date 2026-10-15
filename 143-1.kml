@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="143_1" id="143_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>143_1</name>
+  <Placemark id="143_1.1">
+	<name>143-1</name>
+	<description>荒川パノラマ公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#143_1">
+		<SimpleData name="fid">472</SimpleData>
+		<SimpleData name="no">143</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.095603843849865,139.43848648143873</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.437282,36.098867 139.437717,36.098464 139.437964,36.098134 139.438018,36.097796 139.437814,36.097337 139.43734,36.095903 139.437256,36.095447 139.437234,36.094918 139.437363,36.094485 139.4375154,36.0942129 139.4382128,36.0929601 139.4384435,36.0926307 139.4384327,36.0947114 139.4400474,36.0946984 139.4400635,36.0955653 139.440085,36.0959641 139.4401171,36.0960768 139.4401225,36.0971518 139.440109,36.0984531 139.4391849,36.0984563 139.438127,36.098457 139.437282,36.098867</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="95_4" id="95_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>95_4</name>
+  <Placemark id="95_4.1">
+	<name>95-4</name>
+	<description>正覚寺／野</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#95_4">
+		<SimpleData name="fid">11</SimpleData>
+		<SimpleData name="no">95</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.10333548372104,139.49252486603257</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4898835,36.1032369 139.4900124,36.102975 139.4902002,36.1027539 139.4903665,36.1025069 139.4905113,36.1022208 139.4907152,36.1018134 139.4912838,36.1011199 139.4914107,36.1010103 139.4916877,36.1016073 139.4925551,36.1033174 139.4927487,36.1039693 139.4929337,36.1043383 139.4923526,36.1044714 139.4914943,36.10461 139.4909027,36.1046671 139.4905272,36.103757 139.4905326,36.1034059 139.4902268,36.1032975 139.4898835,36.1032369</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

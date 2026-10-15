@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="82_3" id="82_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>82_3</name>
+  <Placemark id="82_3.1">
+	<name>82-3</name>
+	<description>白山姫神社</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#82_3">
+		<SimpleData name="fid">724</SimpleData>
+		<SimpleData name="no">82</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.129002705970152,139.48627222522944</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.48655,36.130307 139.489596,36.128708 139.489592,36.128358 139.488495,36.127898 139.488259,36.127875 139.487053,36.128185 139.486033,36.128048 139.483786943093,36.129370772627 139.483944265734,36.1295715277989 139.484406994741,36.1301751885405 139.484658572475,36.1301321645133 139.486323029883,36.1298405887743 139.486336625037,36.129924210021 139.486406621914,36.1301083816644 139.48655,36.130307</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

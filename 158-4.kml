@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="158_4" id="158_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>158_4</name>
+  <Placemark id="158_4.1">
+	<name>158-4</name>
+	<description>大芦農村センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#158_4">
+		<SimpleData name="fid">898</SimpleData>
+		<SimpleData name="no">158</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.090292748367034,139.44434658173927</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.442517692551,36.092076112265 139.442594952241,36.0919919216215 139.442761256987,36.091850022139 139.442885247758,36.0917828892597 139.443093908471,36.091718459732 139.444783929444,36.0912680328547 139.444903504563,36.0912291536549 139.445009140252,36.0911803721707 139.445204956105,36.0910733139655 139.445486027173,36.0904870329117 139.446021635208,36.0893911605638 139.446157440663,36.0891227904704 139.446207780077,36.0889841657757 139.446219507658,36.0888766437553 139.446142892199,36.0883091033191 139.445528,36.088381 139.444444,36.088442 139.443659,36.088557 139.442952,36.088853 139.442148,36.089361 139.441589,36.090057 139.441396,36.09019 139.441876,36.090649 139.442147,36.091055 139.442517692551,36.092076112265</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

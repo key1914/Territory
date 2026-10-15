@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="6_1" id="6_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>6_1</name>
+  <Placemark id="6_1.1">
+	<name>6-1</name>
+	<description>見沼公園</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#6_1">
+		<SimpleData name="fid">559</SimpleData>
+		<SimpleData name="no">6</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.167743644726691,139.47959627578618</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.478252,36.168769 139.478908,36.168833 139.4798087,36.1689585 139.480052,36.168981 139.4801842,36.1690235 139.481027465367,36.1692092557636 139.481215271028,36.1683862991446 139.481321989133,36.1679008764752 139.481317017702,36.167477420657 139.481312506131,36.1673212075177 139.48130540554,36.1670991213972 139.481374987159,36.1668232853275 139.481353394387,36.1666631389343 139.481340798604,36.1664436124178 139.481696214013,36.166248908885 139.481271,36.166231 139.480076,36.166366 139.480011,36.166359 139.479952,36.16639 139.47972,36.166258 139.479369,36.166052 139.479313,36.16603 139.479302,36.165987 139.479285,36.165811 139.479239,36.165785 139.478996,36.165808 139.478831,36.166805 139.478836,36.166843 139.478847,36.166978 139.47889,36.167051 139.478961,36.167158 139.479089,36.167346 139.479094,36.167533 139.479003,36.167754 139.478252,36.168769</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

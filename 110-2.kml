@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="110_2" id="110_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>110_2</name>
+  <Placemark id="110_2.1">
+	<name>110-2</name>
+	<description>石田堤／堤根</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#110_2">
+		<SimpleData name="fid">785</SimpleData>
+		<SimpleData name="no">110</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.111769006294054,139.47517163071032</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.472542610581,36.1117089464691 139.47277,36.1117 139.473725,36.111821 139.474788,36.111964 139.475477630727,36.1121260791541 139.475565,36.11186 139.476112,36.110627 139.47618,36.110427 139.476196,36.110254 139.47618,36.110109 139.476145,36.109985 139.476037,36.109797 139.475906,36.109534 139.47586679982,36.1092980716642 139.475897108243,36.1090679029232 139.475975496839,36.1088837130412 139.47449062103,36.1084630558704 139.474441999068,36.1084649264333 139.473773304238,36.1087359825649 139.473813926951,36.1089932788436 139.473953614236,36.1094741954907 139.474024896594,36.1099157059172 139.474026876659,36.11000528744 139.47399123548,36.1100804718535 139.473817478343,36.110381961316 139.473439310533,36.1107888967388 139.47296944751,36.1112473004692 139.472542610581,36.1117089464691</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

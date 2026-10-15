@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="57_2" id="57_2">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>57_2</name>
+  <Placemark id="57_2.1">
+	<name>57-2</name>
+	<description>若小玉 B</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#57_2">
+		<SimpleData name="fid">394</SimpleData>
+		<SimpleData name="no">57</SimpleData>
+		<SimpleData name="block_no">2</SimpleData>
+		<SimpleData name="angle">-45</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.14328665321932,139.49452402079206</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.495182,36.1450073 139.4937712,36.1439027 139.4930309,36.1445265 139.4923496,36.143985 139.4925534,36.1438539 139.4926607,36.143711 139.4930845,36.1433601 139.4926446,36.1430179 139.4936263,36.1421775 139.495269,36.14269 139.494913,36.143005 139.496787,36.144474 139.495182,36.1450073</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

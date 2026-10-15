@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="154_4" id="154_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>154_4</name>
+  <Placemark id="154_4.1">
+	<name>154-4</name>
+	<description>三嶋神社</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#154_4">
+		<SimpleData name="fid">890</SimpleData>
+		<SimpleData name="no">154</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="angle">-27.6</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.094940565981545,139.46262086011751</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.461895080904,36.0968339912849 139.461950283546,36.0968124111145 139.4620403,36.0966887 139.4623853,36.0968007 139.4625163,36.0968687 139.4635163,36.0955407 139.4633103,36.0954477 139.462985409441,36.0952160678247 139.463368010323,36.0947097786386 139.463368505118,36.0946406104496 139.463343904961,36.0945911630761 139.461101308398,36.095552787907 139.461895080904,36.0968339912849</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

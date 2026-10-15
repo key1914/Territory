@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="109_1" id="109_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>109_1</name>
+  <Placemark id="109_1.1">
+	<name>109-1</name>
+	<description>堤根農村センター</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#109_1">
+		<SimpleData name="fid">342</SimpleData>
+		<SimpleData name="no">109</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.113447124740205,139.47194608943417</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.4690272,36.1166781 139.4690037,36.1160005 139.4690145,36.1156884 139.46907,36.115435 139.469217,36.115111 139.470716,36.112945 139.47112,36.11172 139.471373,36.111819 139.471628,36.111873 139.471942,36.111835 139.4725335,36.1117188 139.4719005,36.1129149 139.471922,36.1134176 139.4719005,36.113903 139.4719434,36.1142844 139.4720078,36.1148911 139.471525,36.1158185 139.4715035,36.1160785 139.4690272,36.1166781</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

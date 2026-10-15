@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="162_3" id="162_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>162_3</name>
+  <Placemark id="162_3.1">
+	<name>162-3</name>
+	<description>小谷南集会所</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#162_3">
+		<SimpleData name="fid">906</SimpleData>
+		<SimpleData name="no">162</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.073356238075945,139.47311999139677</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.47693189217,36.0756380076246 139.477276625761,36.0731732718383 139.474812,36.072531 139.475268,36.069062 139.472135,36.06888 139.471599,36.068602 139.471041,36.069678 139.470783,36.070025 139.470687,36.070649 139.469582,36.073242 139.469013,36.074577 139.469002,36.074733 139.468910566403,36.0749405562487 139.471324283284,36.0751461180662 139.47693189217,36.0756380076246</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

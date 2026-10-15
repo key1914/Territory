@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="124_3" id="124_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>124_3</name>
+  <Placemark id="124_3.1">
+	<name>124-3</name>
+	<description>鎌塚三丁目</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#124_3">
+		<SimpleData name="fid">821</SimpleData>
+		<SimpleData name="no">124</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.108532888920834,139.4515573816083</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.452398300312,36.1099955313859 139.45253850061,36.1099728669237 139.452646366572,36.1098281813639 139.452812524932,36.1096435354103 139.452941565589,36.1094411775702 139.452534,36.109358 139.452296,36.10919 139.451713,36.108641 139.4514,36.108282 139.451344,36.108144 139.45128,36.107903 139.450567505868,36.1077995031683 139.450212664896,36.1081705818445 139.45034823225,36.1082334100852 139.450526537594,36.1083026706376 139.450952963748,36.1084449732214 139.451381240096,36.1085285961939 139.451331255561,36.109282964716 139.451770993953,36.1093586648458 139.451737637637,36.1094835879089 139.451759842921,36.1095239517264 139.451761924667,36.109551982143 139.451607679643,36.1098215997188 139.451740968372,36.1098773654724 139.451877083422,36.1099186585375 139.452398300312,36.1099955313859</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="110_1" id="110_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>110_1</name>
+  <Placemark id="110_1.1">
+	<name>110-1</name>
+	<description>石田堤／堤根</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#110_1">
+		<SimpleData name="fid">784</SimpleData>
+		<SimpleData name="no">110</SimpleData>
+		<SimpleData name="block_no">1</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.107755779521298,139.47360016044192</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.470133,36.111849 139.470463,36.111411 139.47112,36.11172 139.471373,36.111819 139.471628,36.111873 139.471665,36.111873 139.471942,36.111835 139.472465,36.111712 139.4725335,36.1117188 139.47296944751,36.1112473004692 139.473439310533,36.1107888967388 139.473817478343,36.110381961316 139.47399123548,36.1100804718535 139.474026876659,36.11000528744 139.474024896594,36.1099157059172 139.473953614236,36.1094741954907 139.473813926951,36.1089932788436 139.473728328779,36.1085004735494 139.473726573548,36.1082384196692 139.473646479536,36.1077385024305 139.472878337295,36.1074813716902 139.472806,36.107598 139.472446,36.108432 139.472159,36.109326 139.471926,36.109857 139.471573,36.110372 139.471364,36.11085 139.471273,36.111158 139.470439,36.110781 139.470106,36.111234 139.470286,36.111327 139.469954,36.111766 139.470133,36.111849</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

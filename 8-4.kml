@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="8_4" id="8_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>8_4</name>
+  <Placemark id="8_4.1">
+	<name>8-4</name>
+	<description>行田市立見沼小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#8_4">
+		<SimpleData name="fid">567</SimpleData>
+		<SimpleData name="no">8</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.165180644403797,139.48248008759109</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.479803508762,36.1663021042502 139.479952,36.16639 139.480011,36.166359 139.480066,36.166363 139.481271,36.166231 139.481696214013,36.166248908885 139.481744,36.166251 139.483222,36.165963 139.483288,36.165947 139.483381768152,36.1657936121824 139.48356808929,36.1655255242134 139.483622895813,36.1653297088205 139.483702113893,36.1650440992814 139.483840753935,36.1648836738533 139.483924840715,36.1647825695108 139.48402972995,36.164510271355 139.484124740659,36.1640990324127 139.483879603962,36.1640536765019 139.483069678263,36.1638330805946 139.483219704526,36.1635484934038 139.482866965043,36.1634237301123 139.482506839722,36.163255932869 139.482467854992,36.1632362931395 139.482010676882,36.1629719692988 139.481853313381,36.1628751611605 139.480800967414,36.1652595317027 139.479803508762,36.1663021042502</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

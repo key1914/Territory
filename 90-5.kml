@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="90_5" id="90_5">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>90_5</name>
+  <Placemark id="90_5.1">
+	<name>90-5</name>
+	<description>杉原会館／埼玉</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#90_5">
+		<SimpleData name="fid">745</SimpleData>
+		<SimpleData name="no">90</SimpleData>
+		<SimpleData name="block_no">5</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.108552453388569,139.49067099478529</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.490149614905,36.1103722164617 139.490868866314,36.1097979467415 139.491492555119,36.10934095104 139.49203402345,36.1093137504993 139.491927721901,36.1081674795897 139.491962264188,36.107687669418 139.492062044316,36.107442469807 139.4923197,36.1069373 139.491499,36.107297 139.489108,36.108316 139.489051,36.10893 139.490149614905,36.1103722164617</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

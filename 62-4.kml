@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="62_4" id="62_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>62_4</name>
+  <Placemark id="62_4.1">
+	<name>62-4</name>
+	<description>藤間</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#62_4">
+		<SimpleData name="fid">676</SimpleData>
+		<SimpleData name="no">62</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.127922735146299,139.51255124356558</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.513160838934,36.1286571211377 139.513917771404,36.1285323760726 139.514093039955,36.1280165406491 139.514689257961,36.1269015422646 139.5144,36.126752 139.513903,36.126598 139.513435286871,36.1266 139.512631916365,36.1267376715806 139.511977,36.126849 139.512158,36.127105 139.512277,36.127208 139.512048,36.127355 139.511035,36.128599 139.5108,36.128908 139.510043759646,36.1297345722049 139.510208631039,36.1301037953806 139.51138412526,36.1297298238357 139.511589531741,36.1296709941855 139.511631575631,36.1293485974202 139.511703716599,36.1291591571662 139.511800777344,36.1290087594508 139.511974729345,36.1288469180327 139.512162031774,36.128761662922 139.512406301034,36.1287239070377 139.512706350437,36.1286916266098 139.513160838934,36.1286571211377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="64_4" id="64_4">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>64_4</name>
+  <Placemark id="64_4.1">
+	<name>64-4</name>
+	<description>全龍寺／真名板</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#64_4">
+		<SimpleData name="fid">681</SimpleData>
+		<SimpleData name="no">64</SimpleData>
+		<SimpleData name="block_no">4</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.129805390644918,139.52632600785628</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.527540310542,36.1316704010267 139.527597548162,36.1316763660289 139.528504314569,36.1313818808612 139.527997427965,36.1307542030834 139.527759932561,36.1304610455839 139.527201531862,36.1299106721024 139.526804231268,36.1295601141988 139.526312381049,36.1297685139183 139.526094305564,36.1298627261429 139.525866138334,36.1300244226501 139.525657217835,36.1302145737256 139.52532713381,36.1305622901499 139.525251418449,36.1306469071657 139.5258957261,36.1310036803019 139.526201869291,36.1313251743607 139.526454977761,36.1312933745179 139.526711835987,36.1311555750502 139.527025171968,36.1314810119695 139.527111951585,36.1314690819349 139.527287357192,36.1313915366654 139.527540310542,36.1316704010267</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="90_3" id="90_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>90_3</name>
+  <Placemark id="90_3.1">
+	<name>90-3</name>
+	<description>杉原会館／埼玉</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#90_3">
+		<SimpleData name="fid">743</SimpleData>
+		<SimpleData name="no">90</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.108066036983068,139.49305145823948</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.494152771666,36.1107372247084 139.494803,36.11035 139.495726,36.109795 139.496342,36.109527 139.496949,36.109275 139.497421,36.109119 139.495369913359,36.107067172067 139.494606179632,36.1062994293172 139.4940187,36.1056853 139.492694,36.106548 139.49232,36.106937 139.492062044316,36.107442469807 139.491962264188,36.107687669418 139.491929396129,36.1080015143499 139.491927721901,36.1081674795897 139.49203402345,36.1093137504993 139.492109438621,36.109326356182 139.49247592792,36.1092587536823 139.492540111122,36.1092615904208 139.49260014168,36.1092852911978 139.492933339804,36.1095938224787 139.493012794741,36.109602105181 139.493087687429,36.1095576033178 139.493409677009,36.1099424390419 139.493714795105,36.110237242742 139.493775730974,36.1104064677639 139.494152771666,36.1107372247084</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

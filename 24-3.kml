@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="24_3" id="24_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>24_3</name>
+  <Placemark id="24_3.1">
+	<name>24-3</name>
+	<description>行田市立太田小学校</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#24_3">
+		<SimpleData name="fid">599</SimpleData>
+		<SimpleData name="no">24</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.147765850939742,139.49747877712227</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.49621298995,36.1488599596516 139.498025205198,36.1497397800349 139.4987,36.148466 139.498996,36.147911 139.500412,36.146542 139.50048675347,36.1463880144406 139.500041054846,36.146256592401 139.499458763787,36.1461000447742 139.499207793828,36.1466583348899 139.499023399777,36.1468377443766 139.498663016713,36.1471496230804 139.4983948847,36.1473490266551 139.497843159808,36.1471054259972 139.496693893768,36.1472269955898 139.496598712704,36.1472522946541 139.49654,36.147238 139.49621298995,36.1488599596516</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="66_3" id="66_3">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="no" type="int"></SimpleField>
+	<SimpleField name="block_no" type="int"></SimpleField>
+	<SimpleField name="label_x" type="float"></SimpleField>
+	<SimpleField name="label_y" type="float"></SimpleField>
+	<SimpleField name="angle" type="float"></SimpleField>
+	<SimpleField name="url" type="string"></SimpleField>
+	<SimpleField name="scale" type="float"></SimpleField>
+</Schema>
+<Folder><name>66_3</name>
+  <Placemark id="66_3.1">
+	<name>66-3</name>
+	<description>持田 B</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_3">
+		<SimpleData name="fid">686</SimpleData>
+		<SimpleData name="no">66</SimpleData>
+		<SimpleData name="block_no">3</SimpleData>
+		<SimpleData name="url">https://www.google.com/maps?q=36.129432756440259,139.45612086097864</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.456845663793,36.1301041283866 139.456837326779,36.1294536708483 139.4569620553,36.129300737681 139.457353879851,36.1290098515691 139.45730337989,36.1289511162695 139.457007387217,36.1287681971028 139.456919164891,36.1286736449674 139.456829245982,36.1285242797679 139.456065405977,36.1289929716693 139.455862026361,36.1290806726981 139.455804157628,36.1290909294575 139.456041854865,36.1294300653822 139.456406291434,36.1299155107023 139.456845663793,36.1301041283866</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
